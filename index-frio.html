@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>StrateUp | Desbloqueie o Crescimento da Sua Empresa 🚀</title>
+    <meta name="description" content="Seu negócio parece estagnado? 🤔 A StrateUp usa diagnósticos precisos e estratégias comprovadas para desbloquear o potencial da sua empresa e gerar crescimento sustentável. Entenda como podemos ajudar.">
+    <meta name="keywords" content="consultoria negócios, destravar crescimento, estratégia empresarial, planejamento PME, diagnóstico empresarial, StrateUp, resolver problemas empresa">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="[YOUR_WEBSITE_URL_HERE]/index-cold.html">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Links CSS Externos (Descomente se estiver usando arquivos separados) -->
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <!-- <link rel="stylesheet" href="css/hero-journey.css"> -->
+    <!-- <link rel="stylesheet" href="css/animations.css"> -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">{ "@context": "https://schema.org", "@type": "WebPage", "name": "StrateUp - Soluções Estratégicas para Novos Negócios e Empresas Estagnadas", "url": "[YOUR_WEBSITE_URL_HERE]/index-cold.html", "description": "Página de introdução da StrateUp, focada em diagnosticar desafios e apresentar o potencial de crescimento através de consultoria estratégica para quem está conhecendo a empresa (leads frios).", "mainEntity": { "@type": "Organization", "name": "StrateUp", "url": "[YOUR_WEBSITE_URL_HERE]" }, "potentialAction": { "@type": "ReadAction", "target": "[YOUR_WEBSITE_URL_HERE]/index-cold.html" } }</script>
+
+    <!-- ESTILOS DEFINITIVOS: TEMA PRETO / AZUL / AMARELO -->
+    <style>
+        :root {
+            --primary-accent-color: #00A9FF; /* Azul Elétrico Mais Vibrante */
+            --cta-color: #FFD700; /* Amarelo Ouro */
+            --cta-hover-color: #ffcd38;
+            --dark-bg: #121212; /* Preto mais profundo */
+            --medium-dark-bg: #1e1e1e; /* Cinza muito escuro para seções */
+            --light-text: #e0e0e0; /* Texto claro */
+            --medium-text: #a0a0a0; /* Texto secundário */
+            --dark-text-on-cta: #121212; /* Texto escuro para botão amarelo */
+            --border-color: #333333; /* Cor sutil para bordas */
+            --border-radius: 6px;
+            --box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+            /* Cores de Status */
+            --success-color: #198754;
+            --danger-color: #dc3545;
+            --warning-color: #ff8f00; /* Laranja para ícones de sintoma */
+            --info-color: #0dcaf0;   /* Azul claro para ícones informativos */
+        }
+
+        /* Reset e Body */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { font-family: 'Montserrat', sans-serif; line-height: 1.7; background-color: var(--dark-bg); color: var(--light-text); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+        .container { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+
+        /* Tipografia */
+        h1, h2, h3, h4 { font-weight: 700; margin-bottom: 0.8em; color: var(--light-text); line-height: 1.3; }
+        h1 { font-size: calc(2.5rem + 1vw); letter-spacing: -1.5px; font-weight: 800; }
+        h2 { font-size: calc(1.8rem + 0.5vw); text-align: center; margin-bottom: 1.8em; font-weight: 700;}
+        h1 span, h2 span { color: var(--primary-accent-color); }
+        p { color: var(--medium-text); margin-bottom: 1.5em; font-size: 1.05rem;}
+        a { color: var(--primary-accent-color); text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: var(--cta-color); }
+
+        /* Botões */
+        .btn { padding: 15px 35px; font-size: 1.05rem; border-radius: var(--border-radius); text-decoration: none; display: inline-block; transition: all 0.3s ease; cursor: pointer; font-weight: 600; border: none; text-align: center; }
+        .btn-cta-yellow { background: linear-gradient(45deg, var(--cta-color), #FFC800); color: var(--dark-text-on-cta); box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3); }
+        .btn-cta-yellow:hover { background: linear-gradient(45deg, var(--cta-hover-color), #FFD700); transform: translateY(-3px) scale(1.03); box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4); }
+        .btn-secondary { background-color: transparent; color: var(--primary-accent-color); border: 2px solid var(--primary-accent-color); }
+        .btn-secondary:hover { background-color: var(--primary-accent-color); color: var(--dark-bg); }
+
+        /* Seções */
+        section { padding: 100px 0; }
+        section:nth-child(odd) { background-color: var(--medium-dark-bg); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); }
+        section:last-of-type { border-bottom: none; }
+
+        /* Header */
+        .header { background-color: rgba(18, 18, 18, 0.9); padding: 15px 0; box-shadow: 0 3px 10px rgba(0,0,0,0.5); position: sticky; top: 0; z-index: 998; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--border-color);}
+        .header .container { display: flex; justify-content: space-between; align-items: center;}
+        .header .logo { color: var(--white-color); font-weight: 800; font-size: 1.9rem; }
+        .header .logo span { background-color: var(--primary-accent-color); color: var(--white-color); padding: 3px 9px; border-radius: 4px; margin-right: 6px; display: inline-block;}
+        .nav { display: flex; align-items: center; }
+        .nav-links { list-style: none; display: flex; margin: 0; padding: 0; }
+        .nav-links li { margin-left: 5px; }
+        .nav-links a { color: var(--medium-text); padding: 10px 15px; font-weight: 500; transition: color 0.3s ease; font-size: 0.95rem; border-radius: 4px; }
+        .nav-links a:hover, .nav-links a.active { color: var(--white-color); background-color: rgba(255, 255, 255, 0.1); }
+        .nav-cta { margin-left: 30px; display: flex; gap: 15px;}
+        .nav-cta .btn { padding: 10px 20px; font-size: 0.9rem; }
+        .mobile-menu-btn { display: none; background: none; border: none; color: var(--light-text); font-size: 1.8rem; cursor: pointer; }
+
+        /* Hero Section */
+        .hero { padding: 120px 0 100px 0; text-align: center; background: linear-gradient(rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.95)), url('images/futuristic-geometric-bg.jpg') center center/cover no-repeat fixed; }
+        .hero .container { max-width: 980px; }
+        .hero h1 { margin-bottom: 0.7em; }
+        .hero .hero-story { font-size: 1.4rem; color: var(--light-text); margin-bottom: 1.8em; font-weight: 300; max-width: 800px; margin-left: auto; margin-right: auto;}
+        .hero p:not(.hero-story) { font-size: 1.15rem; color: var(--medium-text); max-width: 780px; margin-left: auto; margin-right: auto; margin-bottom: 2.8em; }
+        .hero .hero-cta { margin-top: 50px; display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; }
+        .hero-stats { border-top: 1px solid var(--border-color); padding-top: 50px; margin-top: 80px; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; }
+        .hero .stat { text-align: center; }
+        .hero .stat-number { color: var(--primary-accent-color); font-weight: 700; font-size: 2.8rem; display: block; line-height: 1;}
+        .hero .stat-label { color: var(--medium-text); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 5px; display: block;}
+        .hero-features { background-color: var(--medium-dark-bg); padding: 80px 0; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); }
+        .hero-features .container { display: flex; justify-content: space-around; gap: 30px; flex-wrap: wrap; }
+        .feature { text-align: center; max-width: 320px;}
+        .feature-icon i { color: var(--primary-accent-color); font-size: 3rem; margin-bottom: 20px; }
+        .feature h3 { color: var(--light-text); font-size: 1.5rem; margin-bottom: 10px;}
+        .feature p { color: var(--medium-text); font-size: 1rem; }
+
+        /* Animação H1 */
+        #hero-heading .h-word { display: inline-block; opacity: 0; transform: translateY(25px); animation: word-slide-up 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
+        @keyframes word-slide-up { to { opacity: 1; transform: translateY(0); } }
+        .word-cycle-container { position: relative; min-width: 200px; text-align: center; display: inline-block; vertical-align: bottom;}
+        #cycling-word { transition: opacity 0.35s ease-in-out; display: inline-block; color: var(--cta-color); font-weight: 700; }
+        #cycling-word.fade-out { opacity: 0; } #cycling-word.fade-in { opacity: 1; }
+
+        /* Seção Jornada */
+        .journey-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 35px; margin-bottom: 50px; }
+        .journey-step { text-align: center; background-color: var(--dark-bg); padding: 35px; border-radius: var(--border-radius); border: 1px solid var(--border-color); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        .step-icon i { font-size: 2.8rem; color: var(--primary-accent-color); margin-bottom: 20px; }
+        .journey-step h3 { font-size: 1.3rem; color: var(--light-text); margin-bottom: 10px; }
+        .journey-step p { font-size: 0.95rem; color: var(--medium-text); }
+        .journey-cta { text-align: center; margin-top: 40px; }
+
+        /* Seção Mentor */
+        .mentor-container { display: flex; align-items: center; gap: 50px; flex-wrap: wrap; }
+        .mentor-image { flex: 1; min-width: 300px; }
+        .mentor-image img { max-width: 100%; height: auto; border-radius: var(--border-radius); box-shadow: var(--box-shadow); }
+        .mentor-content { flex: 1.5; min-width: 300px; }
+        .mentor-stats { display: flex; gap: 30px; margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--border-color); flex-wrap: wrap;}
+        .mentor-stat { text-align: center; }
+        .mentor-stat .stat-number { font-size: 2.5rem; color: var(--primary-accent-color); font-weight: 700; display: block; line-height: 1; }
+        .mentor-stat .stat-label { font-size: 0.9rem; color: var(--medium-text); margin-top: 5px; display: block; text-transform: uppercase; }
+        .mentor-cta { margin-top: 40px; }
+
+        /* Seção Transformação */
+        .transformation-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; }
+        .transformation-card { background-color: var(--medium-dark-bg); border: 1px solid var(--border-color); border-radius: var(--border-radius); padding: 35px; box-shadow: var(--box-shadow); transition: transform 0.3s ease, box-shadow 0.3s ease;}
+        .transformation-card:hover { transform: translateY(-8px); box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6); }
+        .before-after { display: flex; justify-content: space-around; align-items: center; text-align: center; margin-bottom: 25px; padding-bottom: 20px; border-bottom: 1px solid var(--border-color);}
+        .before-after h4 { font-size: 0.9rem; color: var(--medium-text); margin-bottom: 5px; text-transform: uppercase;}
+        .before-after p { font-size: 1.1rem; color: var(--light-text); margin-bottom: 0; font-weight: 600;}
+        .before i, .after i { font-size: 2rem; margin-bottom: 8px; }
+        .arrow i { font-size: 1.8rem; color: var(--primary-accent-color); margin: 0 15px;}
+        .transformation-card h3 { font-size: 1.5rem; color: var(--light-text); margin-bottom: 15px; }
+        .testimonial { margin-top: 25px; padding-top: 20px; border-top: 1px dashed var(--border-color); }
+        .testimonial-author { display: flex; align-items: center; margin-bottom: 15px; }
+        .testimonial-author img { width: 55px; height: 55px; border-radius: 50%; margin-right: 15px; border: 2px solid var(--primary-accent-color);}
+        .author-info h4 { font-size: 1.1rem; color: var(--light-text); margin: 0 0 3px 0; }
+        .author-info p { font-size: 0.9rem; color: var(--medium-text); margin: 0; }
+        .testimonial blockquote p { font-style: italic; color: var(--light-text); margin-bottom: 0; border-left: 3px solid var(--primary-accent-color); padding-left: 15px; font-size: 1rem;}
+
+        /* === Seção Bloqueios Mentais - REFINADA === */
+        .mental-blocks { background-color: var(--dark-bg); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); }
+        .mental-blocks h2 { color: var(--light-text); margin-bottom: 1.5em; }
+        .mental-blocks > .container > p { text-align: center; max-width: 750px; margin-left: auto; margin-right: auto; margin-bottom: 3em; color: var(--medium-text); }
+        .block-tabs { display: flex; justify-content: center; margin-bottom: 50px; gap: 15px; flex-wrap: wrap;}
+        .block-tab { background-color: transparent; border: 2px solid var(--border-color); color: var(--medium-text); padding: 12px 28px; border-radius: var(--border-radius); cursor: pointer; transition: all 0.3s ease; font-weight: 600; font-size: 1rem; }
+        .block-tab.active, .block-tab:hover { background-color: var(--primary-accent-color); color: var(--dark-bg); border-color: var(--primary-accent-color); transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0, 169, 255, 0.2); }
+        /* Card de Conteúdo Claro no Tema Escuro */
+        .block-content { background-color: #f8f9fa; color: #212529; border-radius: var(--border-radius); padding: 40px 45px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); display: none; border: 1px solid #dee2e6; }
+        .block-content.active { display: block; animation: content-fade-in 0.6s ease; }
+        @keyframes content-fade-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .block-content h3 { color: var(--dark-bg); text-align: center; font-size: 1.8rem; margin-bottom: 1.2em; border-bottom: 2px solid var(--primary-accent-color); display: inline-block; padding-bottom: 10px; }
+        .block-content > p { color: #495057; text-align: center; max-width: 700px; margin: 0 auto 2.5em auto; font-size: 1.1rem; }
+        .block-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; margin-top: 30px; align-items: start; }
+        .block-symptoms, .block-solution { padding: 30px; border: 1px solid #e0e0e0; border-radius: var(--border-radius); background-color: #ffffff; }
+        .block-symptoms h4, .block-solution h4 { font-size: 1.3rem; color: var(--dark-bg); margin-bottom: 1em; display: flex; align-items: center; gap: 10px; }
+        .block-symptoms h4 i { color: var(--warning-color); } /* Laranja */
+        .block-solution h4 i { color: var(--success-color); } /* Verde */
+        .block-symptoms ul { list-style: none; padding-left: 0; }
+        .block-symptoms li { color: #555; margin-bottom: 12px; padding-left: 28px; position: relative; font-size: 1rem; line-height: 1.6; }
+        .block-symptoms li::before { content: '⚠️'; position: absolute; left: 0; top: 1px; font-size: 1.1rem; }
+        .block-solution p { color: #555; font-size: 1rem; line-height: 1.6; margin-bottom: 0; }
+        .block-solution strong { color: var(--dark-bg); font-weight: 600; }
+        /* ========================================== */
+
+        /* Contato Final */
+        #contact { background: linear-gradient(135deg, var(--primary-accent-color), #0056b3); color: var(--white-color); border-bottom: none; padding: 120px 0; }
+        #contact h2 { color: var(--white-color); }
+        #contact p { color: rgba(255, 255, 255, 0.9); max-width: 700px; margin-left: auto; margin-right: auto;}
+        #contact .btn-cta-yellow { padding: 22px 50px; font-size: 1.5em; }
+
+        /* Footer */
+        .footer { background-color: var(--dark-bg); color: var(--medium-text); padding: 60px 0 30px 0; font-size: 0.9rem;}
+        .footer-content { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; margin-bottom: 40px; }
+        .footer-logo a { color: var(--white-color); font-weight: 800; font-size: 1.7rem; }
+        .footer-logo span { background-color: var(--primary-accent-color); color: var(--white-color); padding: 2px 8px; border-radius: 4px; margin-right: 5px; }
+        .footer-logo p { margin-top: 10px; max-width: 280px; }
+        .footer-links h4, .footer-contact h4 { color: var(--white-color); margin-bottom: 15px; font-size: 1.1rem; }
+        .footer-links ul { list-style: none; padding: 0; }
+        .footer-links ul li { margin-bottom: 8px; }
+        .footer-links a, .footer-contact p a { color: var(--medium-text); }
+        .footer-links a:hover, .footer-contact p a:hover { color: var(--cta-color); }
+        .footer-social a { color: var(--medium-text); font-size: 1.3rem; margin-right: 15px; }
+        .footer-social a:hover { color: var(--primary-accent-color); }
+        .footer-bottom { text-align: center; border-top: 1px solid var(--border-color); padding-top: 30px; margin-top: 30px; font-size: 0.85rem; }
+
+        /* Chatbot */
+        #chatbot-container { position: fixed; bottom: 25px; right: 25px; z-index: 1000; }
+        #chatbot-toggle { background-color: var(--primary-accent-color); color: var(--white-color); width: 65px; height: 65px; border-radius: 50%; border: none; font-size: 2rem; display: flex; justify-content: center; align-items: center; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.5); transition: all 0.3s ease; }
+        #chatbot-toggle:hover { background-color: #0056b3; transform: scale(1.1); }
+        #chatbot-widget { width: 370px; max-height: 600px; background: var(--medium-dark-bg); border: 1px solid var(--border-color); border-radius: var(--border-radius); box-shadow: var(--box-shadow); overflow: hidden; display: none; opacity: 0; transform: translateY(20px) scale(0.95); transition: opacity 0.35s ease-out, transform 0.35s ease-out; position: absolute; bottom: 90px; right: 0; flex-direction: column; }
+        #chatbot-widget.active { display: flex; opacity: 1; transform: translateY(0) scale(1); }
+        .chatbot-header { background: var(--dark-bg); color: var(--white-color); padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color);}
+        .chatbot-close { background: none; border: none; color: var(--medium-text); font-size: 1.2rem; cursor: pointer; opacity: 0.8;}
+        .chatbot-close:hover { opacity: 1; }
+        .chatbot-messages { flex-grow: 1; padding: 20px; overflow-y: auto; max-height: 400px; background-color: var(--dark-bg); }
+        .chatbot-message { margin-bottom: 15px; padding: 10px 15px; border-radius: 12px; max-width: 88%; word-wrap: break-word; font-size: 0.95rem; line-height: 1.5;}
+        .chatbot-message.bot { background-color: var(--medium-dark-bg); color: var(--light-text); align-self: flex-start; border-bottom-left-radius: 2px;}
+        .chatbot-message.user { background-color: var(--primary-accent-color); color: var(--white-color); align-self: flex-end; border-bottom-right-radius: 2px;}
+        .chatbot-input-container { display: flex; padding: 15px; border-top: 1px solid var(--border-color); background: var(--medium-dark-bg); }
+        #chatbot-input { flex-grow: 1; background: var(--dark-bg); color: var(--light-text); border: 1px solid var(--border-color); border-radius: var(--border-radius); padding: 12px; margin-right: 10px;}
+        #chatbot-input::placeholder { color: var(--medium-text); }
+        #chatbot-send { background: var(--primary-accent-color); color: var(--white-color); border: none; border-radius: var(--border-radius); padding: 0 18px; cursor: pointer; font-size: 1.1rem;}
+        #chatbot-send:hover { background-color: #0056b3; }
+
+        /* Responsividade */
+        @media (max-width: 992px) {
+            .nav-links, .nav-cta { display: none; }
+            .mobile-menu-btn { display: block; }
+            /* Estilos para o menu ativo devem estar no JS ou CSS separado */
+            .nav.active .nav-links { /* ... estilos menu mobile ... */ }
+            .mentor-container { flex-direction: column; }
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: calc(2rem + 1.5vw); }
+            h2 { font-size: calc(1.5rem + 1vw); }
+            .hero-stats { flex-direction: column; gap: 30px;}
+            .hero-features .container { flex-direction: column; align-items: center;}
+            .journey-steps { grid-template-columns: 1fr; }
+            .block-details { grid-template-columns: 1fr; }
+            .footer-content { flex-direction: column; text-align: center; }
+            .footer-social { margin-top: 15px; }
+        }
+
+        /* Sr Only */
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
+
+    </style>
+</head>
+<body class="cold-lead-page dark-theme">
+
+    <header class="header">
+         <div class="container">
+             <a href="index.html" class="logo" aria-label="StrateUp Página Inicial"><span>S</span>StrateUp</a>
+             <nav class="nav" aria-label="Navegação Principal">
+                 <ul class="nav-links">
+                     <li><a href="#journey">Nosso Método 💡</a></li>
+                     <li><a href="#mentor">Quem Somos 🧠</a></li>
+                     <li><a href="#transformation">Resultados ✨</a></li>
+                     <li><a href="#blocks">Seus Desafios 🎯</a></li>
+                     <li><a href="#contact">Próximo Passo 💬</a></li>
+                 </ul>
+                 <div class="nav-cta">
+                     <a href="#contact" class="btn btn-secondary">Fale Conosco</a>
+                     <a href="#journey" class="btn btn-cta-yellow">Descubra Como <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+                 </div>
+                 <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir Menu" aria-expanded="false">
+                     <i class="fas fa-bars"></i>
+                 </button>
+             </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <section class="hero" id="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                 <div class="hero-content">
+                    <h1 id="hero-heading" aria-live="polite">
+                        <span class="h-word">Seu</span> <span class="h-word">Negócio</span> <span class="h-word">está</span>
+                        <span class="h-word word-cycle-container">
+                            <span id="cycling-word">Patinando?</span>
+                        </span>
+                        <br class="d-none d-md-block"> <!-- Quebra linha em desktop -->
+                        <span class="h-word">Existe</span> <span class="h-word">uma</span> <span class="h-word">Estratégia</span> <span class="h-word">para</span> <span class="h-word"><span>Decolar</span></span> <span class="h-word"><span>seus</span></span> <span class="h-word"><span>Resultados</span></span> 🚀
+                    </h1>
+                    <p class="hero-story">Pare de lutar contra desafios invisíveis. A StrateUp ilumina o caminho com diagnósticos precisos e planos de ação que realmente funcionam.</p>
+                    <p>Descubra a clareza que faltava e transforme a estagnação em crescimento exponencial.</p>
+                    <div class="hero-cta">
+                        <a href="#blocks" class="btn btn-cta-yellow">Identifique Seu Principal Desafio <i class="fas fa-search" style="margin-left: 8px;"></i></a>
+                        <a href="#journey" class="btn btn-secondary">Veja Nosso Método <i class="fas fa-cogs" style="margin-left: 8px;"></i></a>
+                    </div>
+                     <div class="hero-stats" aria-label="Resultados da StrateUp">
+                         <div class="stat"><span class="stat-number">500+</span><span class="stat-label">Empresas Impulsionadas</span></div>
+                         <div class="stat"><span class="stat-number">35%</span><span class="stat-label">Aumento Médio em Receita</span></div>
+                         <div class="stat"><span class="stat-number">97%</span><span class="stat-label">Clientes Satisfeitos</span></div>
+                     </div>
+                </div>
+            </div>
+             <div class="hero-features">
+                <div class="container">
+                    <div class="feature"><div class="feature-icon"><i class="fas fa-lightbulb"></i></div><h3>Diagnóstico Preciso</h3><p>Entenda as causas reais dos seus desafios.</p></div>
+                    <div class="feature"><div class="feature-icon"><i class="fas fa-check-double"></i></div><h3>Soluções Comprovadas</h3><p>Estratégias que funcionam no mercado real.</p></div>
+                    <div class="feature"><div class="feature-icon"><i class="fas fa-map-signs"></i></div><h3>Plano de Ação Claro</h3><p>Um roteiro passo a passo para o sucesso.</p></div>
+                </div>
+             </div>
+        </section>
+
+        <section class="hero-journey" id="journey" aria-labelledby="journey-heading">
+             <div class="container">
+                 <h2 id="journey-heading">O Método StrateUp: <span>Clareza e Ação para Crescer</span></h2>
+                 <p>Nosso processo estruturado transforma incertezas em um plano de crescimento eficaz.</p>
+                 <div class="journey-steps">
+                     <div class="journey-step"><div class="step-icon"><i class="fas fa-diagnoses"></i></div><h3>1. Diagnóstico Completo</h3><p>Analisamos profundamente seu negócio para identificar os verdadeiros gargalos e oportunidades.</p></div>
+                     <div class="journey-step"><div class="step-icon"><i class="fas fa-map-signs"></i></div><h3>2. Plano Estratégico</h3><p>Criamos um plano de ação claro e personalizado para seus objetivos específicos.</p></div>
+                     <div class="journey-step"><div class="step-icon"><i class="fas fa-cogs"></i></div><h3>3. Implementação Guiada</h3><p>Auxiliamos na execução do plano, usando metodologias eficientes e acompanhamento.</p></div>
+                     <div class="journey-step"><div class="step-icon"><i class="fas fa-tasks"></i></div><h3>4. Otimização de Processos</h3><p>Refinamos suas operações para aumentar a eficiência e reduzir custos desnecessários.</p></div>
+                     <div class="journey-step"><div class="step-icon"><i class="fas fa-chart-line"></i></div><h3>5. Medição de Resultados</h3><p>Monitoramos o progresso com métricas claras para garantir o crescimento contínuo.</p></div>
+                     <div class="journey-step"><div class="step-icon"><i class="fas fa-graduation-cap"></i></div><h3>6. Construção de Capacidade</h3><p>Transferimos conhecimento para que sua equipe possa sustentar o crescimento.</p></div>
+                 </div>
+                 <div class="journey-cta">
+                     <a href="#contact" class="btn btn-cta-yellow">Inicie Seu Diagnóstico Gratuito <i class="fas fa-play" style="margin-left: 8px;"></i></a>
+                 </div>
+             </div>
+        </section>
+
+        <section class="mentor-section" id="mentor" aria-labelledby="mentor-heading">
+             <div class="container">
+                 <div class="mentor-container">
+                     <div class="mentor-image"><img src="images/team-collaboration-dark.jpg" alt="Equipe StrateUp colaborando em estratégia em ambiente moderno." loading="lazy"></div>
+                     <div class="mentor-content">
+                         <h2 id="mentor-heading"><span>Expertise Real</span> Aplicada ao Seu Negócio</h2>
+                         <p>Somos mais que consultores, somos parceiros estratégicos com vasta experiência em destravar o potencial de empresas brasileiras. Entendemos seus desafios porque já os superamos antes.</p>
+                         <p>Combinamos análise profunda, estratégias validadas e execução focada para garantir que você não apenas entenda o caminho, mas o percorra com sucesso.</p>
+                         <div class="mentor-stats">
+                             <div class="mentor-stat"><span class="stat-number">15+</span><span class="stat-label">Anos de Mercado</span></div>
+                             <div class="mentor-stat"><span class="stat-number">320%</span><span class="stat-label">ROI Médio de Clientes</span></div>
+                             <div class="mentor-stat"><span class="stat-number">500+</span><span class="stat-label">Projetos Entregues</span></div>
+                         </div>
+                         <div class="mentor-cta">
+                             <a href="#contact" class="btn btn-cta-yellow">Converse com Nossos Estrategistas <i class="fas fa-user-tie" style="margin-left: 8px;"></i></a>
+                         </div>
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+        <section class="transformation-section" id="transformation" aria-labelledby="transformation-heading">
+             <div class="container">
+                 <h2 id="transformation-heading">De Desafios a <span>Histórias de Sucesso</span> ✨</h2>
+                 <p>Veja o impacto real que nossa abordagem estratégica gerou para empresas como a sua.</p>
+                 <div class="transformation-grid">
+                     <article class="transformation-card">
+                         <div class="before-after" aria-label="Comparação Antes e Depois"><div class="before"><i class="fas fa-arrow-down"></i><h4>Antes</h4><p>Queda de 15% nas vendas</p></div><div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div><div class="after"><i class="fas fa-arrow-up"></i><h4>Depois</h4><p>Aumento de 42% em 6 meses</p></div></div>
+                         <h3>E-commerce em Crise Revertida</h3>
+                         <p>Loja online enfrentava queda nas vendas e alto CAC. Implementamos otimizações no funil de conversão e segmentação, resultando em 42% de aumento nas vendas.</p>
+                         <div class="testimonial"><div class="testimonial-author"><img src="images/testimonials/client1.jpg" alt="Foto de Marcela Santos, CEO da Casa & Design" loading="lazy"><div class="author-info"><h4>Marcela Santos</h4><p>CEO, Casa & Design</p></div></div><blockquote><p>"A StrateUp nos deu clareza e um plano acionável. Eles não só reverteram a queda, como nos impulsionaram para um novo patamar."</p></blockquote></div>
+                     </article>
+                     <article class="transformation-card">
+                          <div class="before-after" aria-label="Comparação Antes e Depois"><div class="before"><i class="fas fa-arrow-down"></i><h4>Antes</h4><p>Retenção de apenas 20%</p></div><div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div><div class="after"><i class="fas fa-arrow-up"></i><h4>Depois</h4><p>Retenção de 78%</p></div></div>
+                          <h3>SaaS Combate Alta Rotatividade</h3>
+                          <p>Startup perdia clientes rapidamente. Reestruturamos o onboarding e implementamos um programa de sucesso do cliente, aumentando a retenção de 20% para 78%.</p>
+                          <div class="testimonial"><div class="testimonial-author"><img src="images/testimonials/client2.jpg" alt="Foto de Rafael Mendes, Fundador da TechFlow" loading="lazy"><div class="author-info"><h4>Rafael Mendes</h4><p>Fundador, TechFlow</p></div></div><blockquote><p>"Entender os pontos de retenção foi crucial. A expertise da StrateUp em implementar as mudanças certas foi fundamental para nosso sucesso."</p></blockquote></div>
+                     </article>
+                 </div>
+             </div>
+        </section>
+
+        <section class="mental-blocks" id="blocks" aria-labelledby="blocks-heading">
+            <div class="container">
+                 <h2 id="blocks-heading">Qual Obstáculo Silencioso <span>Está Freando Seu Negócio?</span> 🚧</h2>
+                 <p>Muitas vezes, o maior impedimento não é externo, mas uma barreira interna ou um ponto cego na estratégia que podemos ajudar a iluminar.</p>
+                 <div class="blocks-container">
+                    <div class="block-tabs" role="tablist" aria-orientation="horizontal">
+                         <button class="block-tab active" role="tab" aria-selected="true" aria-controls="tabpanel-1" data-tab="1" id="tab-1">Medo de Mudar?</button>
+                         <button class="block-tab" role="tab" aria-selected="false" aria-controls="tabpanel-2" data-tab="2" id="tab-2" tabindex="-1">Falta de Clareza?</button>
+                         <button class="block-tab" role="tab" aria-selected="false" aria-controls="tabpanel-3" data-tab="3" id="tab-3" tabindex="-1">Análise que Paralisa?</button>
+                         <button class="block-tab" role="tab" aria-selected="false" aria-controls="tabpanel-4" data-tab="4" id="tab-4" tabindex="-1">Recursos Escassos?</button>
+                    </div>
+
+                    <!-- CONTEÚDO COMPLETO E REFINADO DAS ABAS -->
+                    <div class="block-content active" role="tabpanel" id="tabpanel-1" aria-labelledby="tab-1" data-content="1">
+                         <h3><i class="fas fa-lock" style="color: var(--primary-accent-color); margin-right: 10px;"></i>Barreira Comum: O Medo de Mudar</h3>
+                         <p>É natural hesitar diante do novo. Muitas empresas ficam presas ao familiar, mesmo quando ele não funciona mais, simplesmente por receio do desconhecido.</p>
+                         <div class="block-details">
+                              <div class="block-symptoms"><h4><i class="fas fa-exclamation-triangle"></i>Sintomas que Você Pode Reconhecer:</h4><ul><li>Decisões importantes sendo adiadas repetidamente?</li><li>Apego a processos antigos, mesmo com resultados em queda?</li><li>Sua equipe resiste a novas ideias ou ferramentas?</li><li>A inovação parece desencorajada na cultura da empresa?</li></ul></div>
+                              <div class="block-solution"><h4><i class="fas fa-lightbulb"></i>A Abordagem StrateUp para Superar:</h4><p>Nós transformamos a mudança em um processo <strong>seguro e gerenciável</strong>. Iniciamos com ajustes graduais que geram <strong>vitórias rápidas</strong>, construindo sua confiança e a da sua equipe. Fomentamos uma cultura onde experimentar é seguro e aprender é constante, guiando sua empresa para uma <strong>evolução estratégica</strong>.</p></div>
+                         </div>
+                    </div>
+                    <div class="block-content" role="tabpanel" id="tabpanel-2" aria-labelledby="tab-2" data-content="2" hidden>
+                         <h3><i class="fas fa-compass" style="color: var(--primary-accent-color); margin-right: 10px;"></i>Barreira Comum: Falta de Direção Clara</h3>
+                         <p>Sem um mapa estratégico claro, é fácil desperdiçar energia e recursos em ações desalinhadas que não levam ao crescimento desejado.</p>
+                         <div class="block-details">
+                             <div class="block-symptoms"><h4><i class="fas fa-map-signs"></i>Sintomas que Você Pode Reconhecer:</h4><ul><li>Muitas iniciativas ao mesmo tempo, sem um foco claro?</li><li>Dificuldade em saber onde investir tempo e dinheiro?</li><li>Sua equipe parece confusa sobre as prioridades reais?</li><li>Falta de métricas claras para medir o progresso?</li></ul></div>
+                             <div class="block-solution"><h4><i class="fas fa-bullseye"></i>A Abordagem StrateUp para Superar:</h4><p>Criamos um <strong>plano estratégico visual e direto</strong>, com objetivos mensuráveis (OKRs) e indicadores chave (KPIs). Definimos prioridades e responsabilidades, garantindo que todos na empresa remem na <strong>mesma direção</strong>, focados nos resultados que importam.</p></div>
+                         </div>
+                    </div>
+                    <div class="block-content" role="tabpanel" id="tabpanel-3" aria-labelledby="tab-3" data-content="3" hidden>
+                         <h3><i class="fas fa-hourglass-half" style="color: var(--primary-accent-color); margin-right: 10px;"></i>Barreira Comum: Análise Excessiva (Paralisia)</h3>
+                         <p>A busca interminável pela "decisão perfeita" ou por mais dados pode impedir a ação, fazendo com que oportunidades valiosas sejam perdidas.</p>
+                         <div class="block-details">
+                            <div class="block-symptoms"><h4><i class="fas fa-circle-notch fa-spin"></i>Sintomas que Você Pode Reconhecer:</h4><ul><li>Reuniões que se arrastam sem gerar ações concretas?</li><li>Necessidade constante de "mais informação" antes de agir?</li><li>Projetos importantes empacados na fase de planejamento?</li><li>Lentidão que faz perder o timing do mercado?</li></ul></div>
+                             <div class="block-solution"><h4><i class="fas fa-rocket"></i>A Abordagem StrateUp para Superar:</h4><p>Implementamos ciclos de <strong>ação rápida e aprendizado</strong> (métodos ágeis). Ajudamos a identificar os dados *realmente* necessários (princípio 80/20) e a criar uma cultura que valoriza a <strong>ação inteligente</strong> e a adaptação rápida, transformando insights em resultados.</p></div>
+                         </div>
+                     </div>
+                    <div class="block-content" role="tabpanel" id="tabpanel-4" aria-labelledby="tab-4" data-content="4" hidden>
+                         <h3><i class="fas fa-balance-scale-left" style="color: var(--primary-accent-color); margin-right: 10px;"></i>Barreira Comum: Sensação de Recursos Escassos</h3>
+                         <p>Muitas vezes, o problema não é a falta de recursos, mas sim como eles estão sendo utilizados. Otimizar o uso do tempo, dinheiro e talento existentes pode liberar um enorme potencial.</p>
+                         <div class="block-details">
+                             <div class="block-symptoms"><h4><i class="fas fa-hand-holding-usd"></i>Sintomas que Você Pode Reconhecer:</h4><ul><li>Sente que nunca há tempo ou dinheiro suficiente?</li><li>Sua equipe está sobrecarregada com tarefas de baixo impacto?</li><li>Investimentos feitos sem um retorno claro ou mensurável?</li><li>Processos internos parecem complicados ou ineficientes?</li></ul></div>
+                             <div class="block-solution"><h4><i class="fas fa-search-dollar"></i>A Abordagem StrateUp para Superar:</h4><p>Realizamos um <strong>diagnóstico de eficiência</strong> para identificar onde os recursos estão sendo subutilizados ou desperdiçados. Implementamos sistemas de <strong>priorização estratégica</strong> (focando em impacto vs. esforço) e otimizamos fluxos de trabalho para que você obtenha o <strong>máximo retorno</strong> de cada investimento.</p></div>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+             <div class="container" style="text-align: center;">
+                 <h2 id="contact-heading">Chega de Adivinhar. É Hora de Agir com <span>Estratégia.</span></h2>
+                 <p>Nossa equipe está pronta para analisar seu cenário e mostrar, sem compromisso, como podemos ajudar você a superar seus desafios e alcançar seus objetivos.</p>
+                 <a href="#" class="btn btn-cta-yellow schedule-btn" style="margin-top: 20px;">Solicitar Diagnóstico Inicial Gratuito <i class="fas fa-arrow-right" style="margin-left: 10px;"></i></a>
+                 <p style="margin-top: 25px; font-size: 0.9em;"><small>Conversa rápida, sem pressão, focada em valor.</small></p>
+             </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+             <div class="footer-content">
+                 <div class="footer-logo"><a href="index.html" aria-label="StrateUp Página Inicial"><span>S</span>StrateUp</a><p>Clareza e Estratégia para Seu Negócio.</p></div>
+                 <div class="footer-links"><h4>Navegação</h4><ul><li><a href="#journey">Nosso Método</a></li><li><a href="#mentor">Quem Somos</a></li><li><a href="#transformation">Resultados</a></li><li><a href="#blocks">Desafios</a></li><li><a href="#contact">Contato</a></li><li><a href="#">Blog</a></li><li><a href="/politica-privacidade">Privacidade</a></li><li><a href="/termos-uso">Termos</a></li></ul></div>
+                 <div class="footer-contact"><h4>Contato</h4><p>contato@strateup.com.br</p><p>+55 (XX) XXXX-XXXX</p><div class="footer-social"><a href="#" aria-label="LinkedIn StrateUp" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a><a href="#" aria-label="Instagram StrateUp" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></div></div>
+             </div>
+             <div class="footer-bottom"><p>© <span id="current-year"></span> StrateUp Consultoria Estratégica. Todos os direitos reservados.</p></div>
+         </div>
+    </footer>
+
+    <!-- Chatbot Flutuante -->
+    <aside id="chatbot-container" class="chatbot-container" aria-live="polite">
+        <button id="chatbot-toggle" class="chatbot-toggle" aria-label="Abrir chat StrateUp" aria-expanded="false"><i class="fas fa-comments" aria-hidden="true"></i></button>
+        <div id="chatbot-widget" class="chatbot-widget" role="dialog" aria-modal="true" aria-labelledby="chatbot-title">
+            <header class="chatbot-header"><div class="chatbot-title" id="chatbot-title"><i class="fas fa-robot"></i><span> Assistente StrateUp</span></div><button id="chatbot-close" class="chatbot-close" aria-label="Fechar chat"><i class="fas fa-times"></i></button></header>
+            <div id="chatbot-widget-messages" class="chatbot-messages">
+                <p class="chatbot-message bot">Olá! 👋 Bem-vindo(a)! Pronto para descobrir como a StrateUp pode ajudar a escalar seu negócio? Me diga seu principal desafio! 🤔</p>
+            </div>
+            <footer class="chatbot-input-container"><label for="chatbot-input" class="sr-only">Sua pergunta</label><input type="text" id="chatbot-input" placeholder="Qual seu maior desafio hoje?" autocomplete="off"><button id="chatbot-send" aria-label="Enviar"><i class="fas fa-paper-plane"></i></button></footer>
+        </div>
+    </aside>
+
+    <!-- Scripts -->
+    <!-- <script src="js/main.js"></script> -->
+    <!-- <script src="js/chatbot.js"></script> -->
+
+    <!-- Script Final: Ano, Chatbot, Tabs, Animação Título -->
+    <script>
+         document.addEventListener('DOMContentLoaded', () => {
+            const currentYearSpan = document.getElementById('current-year');
+            if (currentYearSpan) currentYearSpan.textContent = new Date().getFullYear();
+            // --- Chatbot Logic (Completa e Corrigida) ---
+            const chatbotWidget = document.getElementById('chatbot-widget');
+            const chatbotToggle = document.getElementById('chatbot-toggle');
+            const chatbotClose = document.getElementById('chatbot-close');
+            const chatInput = document.getElementById('chatbot-input'); // Adicionado
+            const chatSend = document.getElementById('chatbot-send'); // Adicionado
+            const CHATBOT_DELAY = 3500;
+            let chatTimeout;
+            let chatbotManuallyInteracted = false;
+
+            function openChatbot() {
+                if (chatbotWidget && !chatbotWidget.classList.contains('active')) {
+                    chatbotWidget.style.display = 'flex';
+                    requestAnimationFrame(() => { requestAnimationFrame(() => {
+                        chatbotWidget.classList.add('active');
+                        if(chatbotToggle) chatbotToggle.setAttribute('aria-expanded', 'true');
+                    }); });
+                }
+            }
+            function closeChatbot() {
+                if (chatbotWidget && chatbotWidget.classList.contains('active')) {
+                    chatbotWidget.classList.remove('active');
+                    if(chatbotToggle) chatbotToggle.setAttribute('aria-expanded', 'false');
+                    chatbotWidget.addEventListener('transitionend', handleTransitionEnd, { once: true });
+                }
+            }
+            function handleTransitionEnd() { if (chatbotWidget && !chatbotWidget.classList.contains('active')) { chatbotWidget.style.display = 'none'; } }
+            function handleManualInteraction() { chatbotManuallyInteracted = true; clearTimeout(chatTimeout); }
+
+            chatTimeout = setTimeout(() => { if (!chatbotManuallyInteracted) openChatbot(); }, CHATBOT_DELAY);
+            if (chatbotToggle) chatbotToggle.addEventListener('click', () => { handleManualInteraction(); chatbotWidget.classList.contains('active') ? closeChatbot() : openChatbot(); });
+            if (chatbotClose) chatbotClose.addEventListener('click', () => { handleManualInteraction(); closeChatbot(); });
+            if (chatInput) chatInput.addEventListener('focus', handleManualInteraction);
+            if (chatSend) chatSend.addEventListener('click', handleManualInteraction);
+
+            // --- Lógica das Tabs (Completa e Corrigida) ---
+            const blockTabs = document.querySelectorAll('.block-tab');
+            const blockContents = document.querySelectorAll('.block-content');
+            if (blockTabs.length > 0 && blockContents.length > 0) {
+                blockTabs.forEach(tab => {
+                    tab.addEventListener('click', () => {
+                        handleManualInteraction(); // Consider tab click as interaction
+                        const targetTab = tab.getAttribute('data-tab');
+                        blockTabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); t.setAttribute('tabindex', '-1'); });
+                        blockContents.forEach(c => { c.classList.remove('active'); c.hidden = true; });
+                        tab.classList.add('active'); tab.setAttribute('aria-selected', 'true'); tab.removeAttribute('tabindex');
+                        const targetContent = document.querySelector(`.block-content[data-content="${targetTab}"]`);
+                        if (targetContent) { targetContent.classList.add('active'); targetContent.hidden = false; }
+                    });
+                });
+                const activeTabContent = document.querySelector('.block-content.active');
+                blockContents.forEach(c => { c.hidden = !c.classList.contains('active'); });
+                if (!activeTabContent && blockContents[0]) {
+                      blockContents[0].classList.add('active');
+                      blockContents[0].hidden = false;
+                      if(blockTabs[0]) { blockTabs[0].classList.add('active'); blockTabs[0].setAttribute('aria-selected', 'true');}
+                 }
+            } else { console.warn("Elementos de Tabs não encontrados."); }
+
+            // --- Lógica Menu Mobile (Completa) ---
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const nav = document.querySelector('.nav');
+            if (mobileMenuBtn && nav) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    handleManualInteraction(); // Consider menu toggle as interaction
+                    nav.classList.toggle('active');
+                    const isExpanded = nav.classList.contains('active');
+                    mobileMenuBtn.setAttribute('aria-expanded', isExpanded);
+                    mobileMenuBtn.setAttribute('aria-label', isExpanded ? 'Fechar Menu' : 'Abrir Menu');
+                    // Adicionar/remover classe no body para travar scroll se necessário
+                    document.body.classList.toggle('no-scroll', isExpanded);
+                });
+            }
+
+            // --- Animação do Título H1 (Completa) ---
+            const heroHeading = document.getElementById('hero-heading');
+            if (heroHeading) {
+                const words = heroHeading.querySelectorAll('.h-word');
+                words.forEach((word, index) => { word.style.animationDelay = `${index * 0.12}s`; });
+                const cyclingWordSpan = document.getElementById('cycling-word');
+                if (cyclingWordSpan) {
+                    const wordsToCycle = ["Patinando?", "Estagnado?", "Limitado?", "Travado?"]; // Nova opção
+                    let wordIndex = 0;
+                    const cycleInterval = 3000; // 3 segundos
+                    const fadeDuration = 350; // ms
+                    setInterval(() => {
+                        wordIndex = (wordIndex + 1) % wordsToCycle.length;
+                        const nextWord = wordsToCycle[wordIndex];
+                        cyclingWordSpan.classList.add('fade-out');
+                        setTimeout(() => {
+                            cyclingWordSpan.textContent = nextWord;
+                            cyclingWordSpan.classList.remove('fade-out');
+                            cyclingWordSpan.classList.add('fade-in');
+                            setTimeout(() => { cyclingWordSpan.classList.remove('fade-in'); }, fadeDuration);
+                        }, fadeDuration - 50);
+                    }, cycleInterval);
+                }
+            }
+        }); // Fim DOMContentLoaded
+    </script>
+
+</body>
+</html>
