@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title e Meta Tags Otimizados para SEO (Lead Morno) -->
+    <title>StrateUp | Otimize Seu Funil e Aumente Resultados em até 320% | Método Validado</title>
+    <meta name="description" content="Lead Morno: Maximize suas conversões através de nosso método de otimização validado em mais de 200 negócios. Soluções específicas para empresas que precisam escalar.">
+    <meta name="keywords" content="lead morno, otimização de funil, aumentar conversão, estratégia de escala, consultoria de marketing, StrateUp, próximo passo crescimento, ROI marketing, método validado">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.strateup.com.br/index-warm.html">
+    
+    <!-- Open Graph e Twitter Cards para compartilhamento social -->
+    <meta property="og:title" content="StrateUp | Otimize Seu Funil e Aumente Resultados em até 320%">
+    <meta property="og:description" content="Maximize suas conversões através de nosso método de otimização validado em mais de 200 negócios.">
+    <meta property="og:url" content="https://www.strateup.com.br/index-warm.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.strateup.com.br/images/og-image-warm.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="StrateUp | Método Validado de Otimização de Conversão">
+    <meta name="twitter:description" content="Maximize suas conversões através de nosso método de otimização validado.">
+    <meta name="twitter:image" content="https://www.strateup.com.br/images/twitter-image-warm.jpg">
+
+    <!-- Favicon, Fontes, Schema -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org aprimorado (seguindo DotCom Secrets para leads mornos) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "StrateUp - Otimização e Estratégia para Leads Mornos",
+      "url": "https://www.strateup.com.br/index-warm.html",
+      "description": "Página da StrateUp focada em leads mornos, detalhando o processo de otimização de funil, estratégias de conversão e próximos passos para escalar negócios.",
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Análise Estratégica de Funil de Vendas",
+        "description": "Identificamos oportunidades de otimização em seu funil de vendas para aumentar conversões e reduzir custo de aquisição.",
+        "provider": {
+          "@type": "Organization",
+          "name": "StrateUp",
+          "url": "https://www.strateup.com.br",
+          "logo": "https://www.strateup.com.br/images/logo.png"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL",
+          "availability": "https://schema.org/LimitedAvailability"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Serviços de Otimização",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Análise de Funil",
+                "description": "Diagnóstico completo de seu funil de vendas"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Plano de Otimização",
+                "description": "Estratégia personalizada para maximizar conversões"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Implementação Assistida",
+                "description": "Execução guiada das otimizações necessárias"
+              }
+            }
+          ]
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Marcela Santos"
+            },
+            "reviewBody": "A StrateUp identificou pontos cegos no nosso funil que nunca tínhamos percebido. O impacto foi imediato e substancial."
+          },
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Rafael Mendes"
+            },
+            "reviewBody": "Conseguimos não só mais clientes, mas clientes melhores e com um custo muito menor, graças à otimização estratégica proposta pela StrateUp."
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- ESTILOS COMPLETOS + MELHORIAS DE RESPONSIVIDADE -->
+    <style>
+         :root {
+            --primary-accent-color: #00A9FF; 
+            --cta-color: #FFD700; 
+            --cta-hover-color: #ffcd38; 
+            --dark-bg: #121212; 
+            --medium-dark-bg: #1e1e1e; 
+            --light-text: #e0e0e0; 
+            --medium-text: #a0a0a0; 
+            --dark-text-on-cta: #121212; 
+            --border-color: #333333; 
+            --border-radius: 6px; 
+            --box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); 
+            --success-color: #198754; 
+            --danger-color: #dc3545; 
+            --warning-color: #ff8f00; 
+            --info-color: #0dcaf0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { font-family: 'Montserrat', sans-serif; line-height: 1.7; background-color: var(--dark-bg); color: var(--light-text); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+        body.no-scroll { overflow-y: hidden; } /* Trava scroll para menu mobile */
+        .container { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+        h1, h2, h3, h4 { font-weight: 700; margin-bottom: 0.8em; color: var(--light-text); line-height: 1.3; }
+        h1 { font-size: clamp(2.2rem, 1.8rem + 1.8vw, 3.5rem); letter-spacing: -1.5px; font-weight: 800; }
+        h2 { font-size: clamp(1.8rem, 1.5rem + 1vw, 2.8rem); text-align: center; margin-bottom: 1.8em; font-weight: 700;}
+        h1 span, h2 span { color: var(--primary-accent-color); }
+        p { color: var(--medium-text); margin-bottom: 1.5em; font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem); }
+        a { color: var(--primary-accent-color); text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: var(--cta-color); }
+        .btn { padding: clamp(12px, 1.5vw, 15px) clamp(25px, 3vw, 35px); font-size: clamp(0.9rem, 0.85rem + 0.2vw, 1.05rem); border-radius: var(--border-radius); text-decoration: none; display: inline-block; transition: all 0.3s ease; cursor: pointer; font-weight: 600; border: none; text-align: center; }
+        .btn-cta-yellow { 
+            background: linear-gradient(45deg, var(--cta-color), #FFC800); 
+            color: var(--dark-text-on-cta); 
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3); 
+            position: relative;
+            overflow: hidden;
+        }
+        /* Animação de "shine" no CTA (DotCom Secrets recomenda) */
+        .btn-cta-yellow::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(45deg);
+            pointer-events: none;
+            z-index: 1;
+            transition: all 0.6s ease;
+            animation: shine 3s infinite;
+        }
+        @keyframes shine {
+            0% { transform: scale(0) rotate(45deg); opacity: 0; }
+            80% { transform: scale(0) rotate(45deg); opacity: 0.5; }
+            81% { transform: scale(1) rotate(45deg); opacity: 0.5; }
+            100% { transform: scale(4) rotate(45deg); opacity: 0; }
+        }
+        .btn-cta-yellow:hover { 
+            background: linear-gradient(45deg, var(--cta-hover-color), #FFD700); 
+            transform: translateY(-3px) scale(1.03); 
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4); 
+        }
+        .btn-secondary { background-color: transparent; color: var(--primary-accent-color); border: 2px solid var(--primary-accent-color); }
+        .btn-secondary:hover { background-color: var(--primary-accent-color); color: var(--dark-bg); }
+        section { padding: clamp(60px, 8vw, 100px) 0; }
+        section:nth-child(odd) { background-color: var(--medium-dark-bg); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); }
+        section:last-of-type { border-bottom: none; }
+        
+        /* Sticky Bar de Urgência (DotCom Secrets para Leads Mornos) */
+        .urgency-bar {
+            background-color: var(--warning-color);
+            color: var(--dark-text-on-cta);
+            text-align: center;
+            padding: 10px;
+            font-weight: 600;
+            position: relative;
+            overflow: hidden;
+            font-size: 0.9rem;
+        }
+        .urgency-bar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            animation: pulse-subtle 2s infinite;
+        }
+        @keyframes pulse-subtle {
+            0% { opacity: 0.2; }
+            50% { opacity: 0.5; }
+            100% { opacity: 0.2; }
+        }
+        
+        .header { 
+            background-color: rgba(18, 18, 18, 0.9); 
+            padding: 15px 0; 
+            box-shadow: 0 3px 10px rgba(0,0,0,0.5); 
+            position: sticky; 
+            top: 0; 
+            z-index: 998; 
+            backdrop-filter: blur(8px); 
+            -webkit-backdrop-filter: blur(8px); 
+            border-bottom: 1px solid var(--border-color);
+        }
+        .header .container { display: flex; justify-content: space-between; align-items: center;}
+        .header .logo { color: var(--white-color); font-weight: 800; font-size: 1.9rem; }
+        .header .logo span { background-color: var(--primary-accent-color); color: var(--white-color); padding: 3px 9px; border-radius: 4px; margin-right: 6px; display: inline-block;}
+        .nav { display: flex; align-items: center; }
+        .nav-links { list-style: none; display: flex; margin: 0; padding: 0; }
+        .nav-links li { margin-left: 5px; }
+        .nav-links a { color: var(--medium-text); padding: 10px 15px; font-weight: 500; transition: color 0.3s ease; font-size: 0.95rem; border-radius: 4px; }
+        .nav-links a:hover, .nav-links a.active { color: var(--white-color); background-color: rgba(255, 255, 255, 0.1); }
+        .nav-cta { margin-left: 30px; display: flex; gap: 15px;}
+        .nav-cta .btn { padding: 10px 20px; font-size: 0.9rem; }
+        .mobile-menu-btn { display: none; background: none; border: none; color: var(--light-text); font-size: 1.8rem; cursor: pointer; z-index: 1001; }
+        
+        /* Estilos Menu Mobile Ativo */
+        .nav.active .nav-links { display: flex; flex-direction: column; position: absolute; top: 70px; left: 0; background-color: var(--medium-dark-bg); width: 100%; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-top: 1px solid var(--border-color); }
+        .nav.active .nav-links li { margin: 10px 0; text-align: center;}
+        .nav.active .nav-cta { display: flex; flex-direction: column; align-items: center; margin-top: 15px; margin-left: 0; padding-top: 15px; border-top: 1px solid var(--border-color); position: absolute; top: calc(70px + 250px); left: 0; width: 100%; background: var(--medium-dark-bg); padding-bottom: 20px;}
+        .nav.active .nav-cta .btn { width: 80%; max-width: 300px; margin-bottom: 10px;}
+
+        /* Seção Hero Otimizada para Leads Mornos (DotCom Secrets) */
+        .hero { 
+            position: relative;
+            padding: 100px 0 80px;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(0, 169, 255, 0.05), transparent);
+            z-index: 0;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        #hero-heading .h-word { 
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: word-slide-up 0.5s forwards;
+        }
+        @keyframes word-slide-up { 
+            to { opacity: 1; transform: translateY(0); } 
+        }
+        .word-cycle-container { 
+            display: inline-block; 
+            position: relative;
+        }
+        #cycling-word { 
+            display: inline-block;
+            transition: opacity 0.5s ease;
+        }
+        #cycling-word.fade-out { 
+            opacity: 0; 
+        }
+        #cycling-word.fade-in { 
+            opacity: 1; 
+        }
+        
+        /* Badge de verificação para leads mornos (construção de confiança) */
+        .trust-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: rgba(25, 135, 84, 0.1);
+            border: 1px solid rgba(25, 135, 84, 0.3);
+            padding: 8px 15px;
+            border-radius: 50px;
+            margin: 0 auto 30px;
+            max-width: fit-content;
+        }
+        .trust-badge i {
+            color: var(--success-color);
+            margin-right: 8px;
+        }
+        .trust-badge span {
+            color: var(--light-text);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        /* Estatísticas - com animação crescente */
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary-accent-color);
+            margin-bottom: 5px;
+            position: relative;
+        }
+        /* Animação de contagem para estatísticas */
+        .stat-number.animate {
+            animation: countUp 2s ease-out forwards;
+        }
+        @keyframes countUp {
+            from {
+                content: "0";
+            }
+            to {
+                content: attr(data-value);
+            }
+        }
+        .stat-label {
+            color: var(--medium-text);
+            font-size: 0.9rem;
+        }
+        
+        /* Jornada e Etapas */
+        .journey-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        .journey-step {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+        .journey-step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary-accent-color);
+        }
+        .step-icon {
+            width: 60px;
+            height: 60px;
+            background-color: rgba(0, 169, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .step-icon i {
+            font-size: 1.5rem;
+            color: var(--primary-accent-color);
+        }
+        
+        /* Pattern Breaker - Elemento disruptivo para leads mornos (DotCom Secrets) */
+        .pattern-breaker {
+            margin: 60px auto;
+            max-width: 700px;
+            background-color: rgba(255, 215, 0, 0.05);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            position: relative;
+        }
+        .pattern-breaker::before {
+            content: '"';
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            font-size: 80px;
+            color: var(--cta-color);
+            opacity: 0.3;
+            font-family: Georgia, serif;
+        }
+        .pattern-breaker p {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: var(--light-text);
+            position: relative;
+            z-index: 1;
+        }
+        .pattern-breaker-author {
+            text-align: right;
+            margin-top: 15px;
+            font-weight: 600;
+            color: var(--cta-color);
+        }
+        
+        /* Mentor Section */
+        .mentor-container {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+        .mentor-image {
+            flex: 1;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+        }
+        .mentor-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .mentor-content {
+            flex: 1;
+        }
+        .mentor-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .mentor-stat {
+            text-align: center;
+        }
+        
+        /* Transformação - com melhorias */
+        .transformation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        .transformation-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+        .transformation-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary-accent-color);
+        }
+        .before-after {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            gap: 20px;
+        }
+        .before, .after {
+            flex: 1;
+            text-align: center;
+            padding: 15px;
+            border-radius: var(--border-radius);
+        }
+        .before {
+            background-color: rgba(220, 53, 69, 0.1);
+        }
+        .after {
+            background-color: rgba(25, 135, 84, 0.1);
+        }
+        .before i, .after i {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .before i {
+            color: var(--danger-color);
+        }
+        .after i {
+            color: var(--success-color);
+        }
+        .arrow {
+            font-size: 1.5rem;
+            color: var(--medium-text);
+        }
+        .testimonial {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .testimonial-author img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        .author-info h4 {
+            margin-bottom: 0;
+            font-size: 1rem;
+        }
+        .author-info p {
+            margin-bottom: 0;
+            font-size: 0.8rem;
+        }
+        blockquote {
+            font-style: italic;
+            position: relative;
+            padding-left: 20px;
+        }
+        blockquote::before {
+            content: '';
+            width: 3px;
+            height: 100%;
+            background-color: var(--primary-accent-color);
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 3px;
+        }
+        
+        /* Seção Bloqueios Mentais com melhorias */
+        .mental-blocks { 
+            background-color: var(--dark-bg); 
+            border-top: 1px solid var(--border-color); 
+            border-bottom: 1px solid var(--border-color); 
+        }
+        .mental-blocks h2 { 
+            color: var(--light-text); 
+            margin-bottom: 1.5em; 
+        }
+        .mental-blocks > .container > p { 
+            text-align: center; 
+            max-width: 750px; 
+            margin-left: auto; 
+            margin-right: auto; 
+            margin-bottom: 3em; 
+            color: var(--medium-text); 
+        }
+        .block-tabs { 
+            display: flex; 
+            justify-content: center; 
+            margin-bottom: 50px; 
+            gap: 15px; 
+            flex-wrap: wrap;
+        }
+        .block-tab { 
+            background-color: transparent; 
+            border: 2px solid var(--border-color); 
+            color: var(--medium-text); 
+            padding: 12px 28px; 
+            border-radius: var(--border-radius); 
+            cursor: pointer; 
+            transition: all 0.3s ease; 
+            font-weight: 600; 
+            font-size: 1rem; 
+            position: relative;
+            overflow: hidden;
+        }
+        .block-tab.active::after, .block-tab:hover::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--primary-accent-color);
+            animation: tab-highlight 0.3s ease-out forwards;
+        }
+        @keyframes tab-highlight {
+            from { transform: scaleX(0); }
+            to { transform: scaleX(1); }
+        }
+        .block-tab.active, .block-tab:hover { 
+            background-color: var(--primary-accent-color); 
+            color: var(--dark-bg); 
+            border-color: var(--primary-accent-color); 
+            transform: translateY(-2px); 
+            box-shadow: 0 4px 10px rgba(0, 169, 255, 0.2); 
+        }
+        .block-content { 
+            background-color: #f8f9fa; 
+            color: #212529; 
+            border-radius: var(--border-radius); 
+            padding: 40px 45px; 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
+            display: none; 
+            border: 1px solid #dee2e6; 
+        }
+        .block-content.active { 
+            display: block; 
+            animation: content-fade-in 0.6s ease; 
+        }
+        @keyframes content-fade-in { 
+            from { opacity: 0; transform: translateY(10px); } 
+            to { opacity: 1; transform: translateY(0); } 
+        }
+        .block-content h3 { 
+            color: var(--dark-bg); 
+            text-align: center; 
+            font-size: 1.8rem; 
+            margin-bottom: 1.2em; 
+            border-bottom: 2px solid var(--primary-accent-color); 
+            display: inline-block; 
+            padding-bottom: 10px; 
+        }
+        .block-content > p { 
+            color: #495057; 
+            text-align: center; 
+            max-width: 700px; 
+            margin: 0 auto 2.5em auto; 
+            font-size: 1.1rem; 
+        }
+        .block-details { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 40px; 
+            margin-top: 30px; 
+            align-items: start; 
+        }
+        .block-symptoms, .block-solution { 
+            padding: 30px; 
+            border: 1px solid #e0e0e0; 
+            border-radius: var(--border-radius); 
+            background-color: #ffffff; 
+        }
+        .block-symptoms h4, .block-solution h4 { 
+            font-size: 1.3rem; 
+            color: var(--dark-bg); 
+            margin-bottom: 1em; 
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+        }
+        .block-symptoms h4 i { color: var(--warning-color); } 
+        .block-solution h4 i { color: var(--success-color); }
+        .block-symptoms ul { list-style: none; padding-left: 0; }
+        .block-symptoms li { 
+            color: #555; 
+            margin-bottom: 12px; 
+            padding-left: 28px; 
+            position: relative; 
+            font-size: 1rem; 
+            line-height: 1.6; 
+        }
+        .block-symptoms li::before { 
+            content: '⚠️'; 
+            position: absolute; 
+            left: 0; 
+            top: 1px; 
+            font-size: 1.1rem; 
+        }
+        .block-solution p { 
+            color: #555; 
+            font-size: 1rem; 
+            line-height: 1.6; 
+            margin-bottom: 0; 
+        }
+        .block-solution strong { 
+            color: var(--dark-bg); 
+            font-weight: 600; 
+        }
+        
+        /* Seção de Contato Avançada (DotCom Secrets - Element of Scarcity) */
+        #contact {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 120px;
+        }
+        #contact::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 169, 255, 0.1), transparent 70%);
+            z-index: 0;
+        }
+        .scarcity-box {
+            background-color: rgba(220, 53, 69, 0.05);
+            border: 1px solid rgba(220, 53, 69, 0.2);
+            border-radius: var(--border-radius);
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 500px;
+            text-align: center;
+            animation: pulse-border 2s infinite;
+        }
+        @keyframes pulse-border {
+            0% { box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.2); }
+            70% { box-shadow: 0 0 0 10px rgba(220, 53, 69, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(220, 53, 69, 0); }
+        }
+        .scarcity-title {
+            color: var(--danger-color);
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .scarcity-value {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--danger-color);
+        }
+        
+        /* Animações para Elementos de Vídeo (Simulação) */
+        .video-container {
+            max-width: 700px;
+            margin: 40px auto;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            position: relative;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            background-color: rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        .video-placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            cursor: pointer;
+        }
+        .video-play-button {
+            width: 80px;
+            height: 80px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+        .video-play-button i {
+            font-size: 30px;
+            color: var(--cta-color);
+            margin-left: 5px;
+        }
+        .video-placeholder:hover .video-play-button {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+        .video-title {
+            color: var(--light-text);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: var(--medium-dark-bg);
+            padding: 60px 0 30px;
+            border-top: 1px solid var(--border-color);
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-logo {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-logo a {
+            color: var(--light-text);
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+        .footer-logo span {
+            background-color: var(--primary-accent-color);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+        .footer-logo p {
+            color: var(--medium-text);
+            margin-bottom: 0;
+        }
+        .footer-links h4, .footer-contact h4 {
+            color: var(--light-text);
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        .footer-links a {
+            color: var(--medium-text);
+            transition: all 0.3s ease;
+        }
+        .footer-links a:hover {
+            color: var(--primary-accent-color);
+            padding-left: 5px;
+        }
+        .footer-contact p {
+            color: var(--medium-text);
+            margin-bottom: 10px;
+        }
+        .footer-social {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--medium-text);
+            transition: all 0.3s ease;
+        }
+        .footer-social a:hover {
+            background-color: var(--primary-accent-color);
+            color: white;
+            transform: translateY(-3px);
+        }
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-color);
+        }
+        .footer-bottom p {
+            color: var(--medium-text);
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+        
+        /* Popup de Lead Capture (DotCom Secrets Lead Magnet) */
+        .lead-popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+        .lead-popup.active {
+            display: flex;
+            animation: fadeIn 0.3s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .lead-popup-content {
+            background-color: var(--medium-dark-bg);
+            border-radius: var(--border-radius);
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        @keyframes popIn {
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        .lead-popup-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 1.5rem;
+            color: var(--medium-text);
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .lead-popup-close:hover {
+            color: var(--light-text);
+        }
+        .lead-popup-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--light-text);
+            text-align: center;
+        }
+        .lead-popup-subtitle {
+            color: var(--primary-accent-color);
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .lead-popup-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .lead-popup-form input {
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--light-text);
+            font-size: 1rem;
+        }
+        .lead-popup-form button {
+            padding: 15px;
+            background-color: var(--cta-color);
+            color: var(--dark-text-on-cta);
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .lead-popup-form button:hover {
+            background-color: var(--cta-hover-color);
+            transform: translateY(-2px);
+        }
+        .lead-popup-privacy {
+            margin-top: 15px;
+            font-size: 0.8rem;
+            text-align: center;
+            color: var(--medium-text);
+        }
+        
+        /* Chatbot */
+        #chatbot-container { position: fixed; bottom: 25px; right: 25px; z-index: 1000; }
+        #chatbot-toggle { 
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: var(--primary-accent-color);
+            color: white;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0, 169, 255, 0.3);
+            cursor: pointer;
+            position: relative;
+            z-index: 1002;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        #chatbot-toggle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 169, 255, 0.4);
+        }
+        #chatbot-widget { 
+            width: 370px; 
+            max-height: 600px; 
+            background: var(--medium-dark-bg); 
+            border: 1px solid var(--border-color); 
+            border-radius: var(--border-radius); 
+            box-shadow: var(--box-shadow); 
+            overflow: hidden; 
+            display: none; 
+            opacity: 0; 
+            transform: translateY(20px) scale(0.95); 
+            transition: opacity 0.35s ease-out, transform 0.35s ease-out; 
+            position: absolute; 
+            bottom: 90px; 
+            right: 0; 
+            flex-direction: column; 
+        }
+        #chatbot-widget.active { 
+            display: flex;
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+        .chatbot-header { 
+            padding: 15px;
+            background-color: var(--primary-accent-color);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chatbot-header h3 {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+        .chatbot-close { 
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .chatbot-messages { 
+            padding: 20px;
+            overflow-y: auto;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .chatbot-message { 
+            padding: 12px 15px;
+            border-radius: 15px;
+            max-width: 75%;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .chatbot-message.bot { 
+            background-color: rgba(0, 169, 255, 0.1);
+            border: 1px solid rgba(0, 169, 255, 0.2);
+            color: var(--light-text);
+            align-self: flex-start;
+            border-bottom-left-radius: 5px;
+        }
+        .chatbot-message.user { 
+            background-color: rgba(255, 215, 0, 0.1);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            color: var(--light-text);
+            align-self: flex-end;
+            border-bottom-right-radius: 5px;
+        }
+        .typing-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 15px;
+            background-color: rgba(0, 169, 255, 0.1);
+            border: 1px solid rgba(0, 169, 255, 0.2);
+            border-radius: 15px;
+            border-bottom-left-radius: 5px;
+            margin-top: 10px;
+            align-self: flex-start;
+        }
+        .typing-indicator span { 
+            width: 7px;
+            height: 7px;
+            background-color: var(--primary-accent-color);
+            border-radius: 50%;
+            display: inline-block;
+            opacity: 0.6;
+            animation: typing-dot 1.4s infinite;
+        }
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        @keyframes typing-dot { 
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-5px); }
+        }
+        .chatbot-input-container { 
+            display: flex;
+            border-top: 1px solid var(--border-color);
+            padding: 15px;
+        }
+        #chatbot-input { 
+            flex-grow: 1;
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--light-text);
+            font-size: 0.95rem;
+            margin-right: 10px;
+        }
+        #chatbot-send { 
+            background-color: var(--primary-accent-color);
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            padding: 8px 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        #chatbot-send:hover {
+            background-color: #0089d0;
+        }
+        
+        /* Animação H2 */
+        h2.animated-title .h-word { 
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        h2.animate-title .h-word { 
+            animation: word-slide-up 0.5s forwards;
+        }
+        
+        /* Rastreador de Origem - DotCom Secrets Lead Origin */
+        .lead-origin-tracker {
+            display: none;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 1200px) {
+            .container { max-width: 960px; }
+        }
+        @media (max-width: 992px) {
+            .container { max-width: 720px; }
+            .nav-links, .nav-cta { display: none; }
+            .mobile-menu-btn { display: block; }
+            .mentor-container { flex-direction: column; }
+            .hero h1 { font-size: calc(2.2rem + 1.2vw); }
+            h2 { font-size: calc(1.6rem + 0.8vw); }
+        }
+        @media (max-width: 768px) {
+             h1 { font-size: calc(1.8rem + 2vw); }
+             h2 { font-size: calc(1.4rem + 1.2vw); }
+             section { padding: 80px 0; }
+             .hero { padding: 100px 0 80px 0; }
+             .hero-stats { flex-direction: column; gap: 35px; margin-top: 60px;}
+             .hero .stat-number { font-size: 2.5rem; }
+             .journey-steps { grid-template-columns: 1fr; }
+             .pattern-breaker { padding: 25px; margin: 40px auto; }
+             .mentor-stats { justify-content: center; }
+             .transformation-grid { grid-template-columns: 1fr; }
+             .footer-content { grid-template-columns: 1fr; }
+             .footer-social { margin-top: 15px; }
+             #chatbot-widget { width: calc(100vw - 40px); max-width: 370px; bottom: 85px; right: 20px; }
+        }
+        @media (max-width: 576px) {
+             .btn { padding: 12px 25px; font-size: 1rem;}
+             #contact .btn-cta-yellow { padding: 18px 40px; font-size: 1.2em; }
+             .block-content { padding: 30px 25px; }
+             .block-tab { padding: 10px 20px; font-size: 0.9rem;}
+        }
+        /* Sr Only */
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
+
+    </style>
+</head>
+<body class="warm-lead-page dark-theme">
+    <!-- Barra de Urgência (DotCom Secrets Pattern Interrupt) -->
+    <div class="urgency-bar">
+        ⚡ Últimas 5 vagas disponíveis para análise estratégica de funil neste mês! Agende já a sua.
+    </div>
+
+    <header class="header">
+        <div class="container">
+             <a href="index.html" class="logo" aria-label="StrateUp Página Inicial"><span>S</span>StrateUp</a>
+             <nav class="nav" aria-label="Navegação Principal">
+                 <ul class="nav-links">
+                     <li><a href="#journey">Método de Otimização 📈</a></li>
+                     <li><a href="#mentor">Nossos Especialistas 🤓</a></li>
+                     <li><a href="#transformation">Estudos de Caso ✨</a></li>
+                     <li><a href="#blocks">Superando Objeções 🎯</a></li>
+                     <li><a href="#contact">Próximo Passo 💬</a></li>
+                 </ul>
+                 <div class="nav-cta">
+                     <a href="#contact" class="btn btn-secondary">Discuta Sua Estratégia</a>
+                     <a href="#" class="btn btn-cta-yellow schedule-btn">Agendar Análise de Funil <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+                 </div>
+                 <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir Menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+             </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Seção Hero Aprimorada -->
+        <section class="hero" id="hero" aria-labelledby="hero-heading">
+             <div class="container">
+                <div class="trust-badge">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Método validado em + de 200 negócios</span>
+                </div>
+                 
+                <div class="hero-content">
+                    <h1 id="hero-heading" aria-live="polite">
+                        <span class="h-word">Pronto</span> <span class="h-word">para</span> <span class="h-word">Transformar</span> <span class="h-word">Cliques</span>
+                        <span class="h-word word-cycle-container">
+                            <span id="cycling-word">em Clientes?</span>
+                        </span>
+                        <br class="d-none d-md-block">
+                        <span class="h-word">Otimize</span> <span class="h-word">seu</span> <span class="h-word">Funil</span> <span class="h-word">com</span> <span class="h-word"><span>Estratégias</span></span> <span class="h-word"><span>Validadas</span></span> 📈
+                    </h1>
+                    <p class="hero-story">Você já avançou na jornada. Agora, o foco é refinar cada etapa para maximizar conversões e preparar seu negócio para a escala.</p>
+                    <p>A StrateUp oferece a expertise e as ferramentas para transformar seu funil de vendas em uma máquina de resultados previsíveis.</p>
+                    <div class="hero-cta">
+                        <a href="#journey" class="btn btn-cta-yellow">Conheça o Método de Otimização <i class="fas fa-cogs"></i></a>
+                        <a href="#transformation" class="btn btn-secondary">Veja Clientes Otimizados <i class="fas fa-chart-line"></i></a>
+                    </div>
+                     <div class="hero-stats" aria-label="Resultados da Otimização StrateUp">
+                        <div class="stat"><span class="stat-number">25-50%</span><span class="stat-label">Aumento Médio Conversão</span></div>
+                        <div class="stat"><span class="stat-number">>30%</span><span class="stat-label">Redução Média de CAC</span></div>
+                        <div class="stat"><span class="stat-number">97%</span><span class="stat-label">Clientes Satisfeitos</span></div>
+                     </div>
+                </div>
+            </div>
+             <div class="hero-features">
+                <div class="container">
+                    <div class="feature"><div class="feature-icon"><i class="fas fa-filter"></i></div><h3>Otimização de Funil</h3><p>Identifique e corrija gargalos de conversão.</p></div>
+                    <div class="feature"><div class="feature-icon"><i class="fas fa-laptop-code"></i></div><h3>Testes A/B Inteligentes</h3><p>Use dados para validar as melhores abordagens.</p></div>
+                    <div class="feature"><div class="feature-icon"><i class="fas fa-users-cog"></i></div><h3>Estratégias de Escala</h3><p>Prepare seu negócio para o próximo nível.</p></div>
+                </div>
+             </div>
+        </section>
+        
+        <!-- Pattern Breaker (Disruptor de Padrão - DotCom Secrets) -->
+        <div class="pattern-breaker">
+            <p>"Antes de começar com a StrateUp, nossa taxa de conversão era de apenas 1.7%. Após aplicar as otimizações recomendadas, atingimos 4.3% em apenas 30 dias. O que mais me impressionou foi como pequenos ajustes geraram um impacto tão significativo no resultado final."</p>
+            <div class="pattern-breaker-author">Carlos Mendonça, CEO da TechSolutions</div>
+        </div>
+        
+        <!-- Seção Jornada -->
+         <section class="hero-journey" id="journey" aria-labelledby="journey-heading">
+             <div class="container">
+                 <h2 id="journey-heading" class="animated-title">O Caminho para a <span>Máxima Eficiência</span> do Seu Funil</h2>
+                 <p>Entenda nosso processo detalhado para analisar, otimizar e escalar seus resultados de forma consistente.</p>
+                 <div class="journey-steps">
+                    <div class="journey-step"><div class="step-icon"><i class="fas fa-search-dollar"></i></div><h3>1. Análise de Conversão</h3><p>Mapeamos a jornada atual do seu cliente e identificamos pontos de atrito e oportunidades perdidas.</p></div>
+                    <div class="journey-step"><div class="step-icon"><i class="fas fa-drafting-compass"></i></div><h3>2. Plano de Otimização Tático</h3><p>Desenvolvemos um plano claro com ações específicas para aumentar conversões em cada etapa.</p></div>
+                    <div class="journey-step"><div class="step-icon"><i class="fas fa-tools"></i></div><h3>3. Implementação de Melhorias</h3><p>Ajustamos páginas, copy, ofertas e fluxos para maximizar a persuasão e a clareza.</p></div>
+                    <div class="journey-step"><div class="step-icon"><i class="fas fa-vials"></i></div><h3>4. Testes A/B e Iteração</h3><p>Conduzimos testes controlados para validar hipóteses e encontrar as variações de maior performance.</p></div>
+                    <div class="journey-step"><div class="step-icon"><i class="fas fa-chart-pie"></i></div><h3>5. Análise de Dados Contínua</h3><p>Monitoramos KPIs chave e usamos os dados para refinar continuamente a estratégia.</p></div>
+                    <div class="journey-step"><div class="step-icon"><i class="fas fa-layer-group"></i></div><h3>6. Preparação para Escala</h3><p>Com o funil otimizado, estruturamos os próximos passos para escalar de forma sustentável.</p></div>
+                 </div>
+                 <div class="journey-cta">
+                     <a href="#contact" class="btn btn-cta-yellow">Otimize Seu Funil Agora <i class="fas fa-arrow-up"></i></a>
+                 </div>
+             </div>
+        </section>
+        
+        <!-- Vídeo Simulação (DotComSecrets - Visual Pattern Break) -->
+        <div class="video-container">
+            <div class="video-placeholder">
+                <div class="video-play-button">
+                    <i class="fas fa-play"></i>
+                </div>
+                <div class="video-title">Como aumentamos as conversões em 283% para a TechFlow</div>
+            </div>
+        </div>
+        
+        <!-- Seção Mentor -->
+        <section class="mentor-section" id="mentor" aria-labelledby="mentor-heading">
+             <div class="container">
+                <div class="mentor-container">
+                     <div class="mentor-image"><img src="images/team-collaboration-dark.jpg" alt="Equipe StrateUp analisando métricas de funil de vendas." loading="lazy"></div>
+                     <div class="mentor-content">
+                         <h2 id="mentor-heading" class="animated-title">Sua Vantagem Estratégica: <span>Nossa Expertise em Otimização</span></h2>
+                         <p>Já analisamos e otimizamos centenas de funis de vendas nos mais diversos nichos. Sabemos onde procurar por oportunidades de melhoria rápida e como implementar mudanças que geram impacto real.</p>
+                         <p>Vamos além dos relatórios. Transformamos dados complexos em insights acionáveis e acompanhamos você na implementação para garantir que a otimização se traduza em mais lucro e crescimento.</p>
+                         <div class="mentor-stats">
+                            <div class="mentor-stat"><span class="stat-number">15+</span><span class="stat-label">Anos de Experiência</span></div>
+                            <div class="mentor-stat"><span class="stat-number">320%</span><span class="stat-label">ROI Médio dos Clientes</span></div>
+                            <div class="mentor-stat"><span class="stat-number">12</span><span class="stat-label">Setores Diversos Atendidos</span></div>
+                         </div>
+                         <div class="mentor-cta">
+                             <a href="#" class="btn btn-cta-yellow schedule-btn">Agendar Análise de Funil Detalhada <i class="fas fa-calendar-alt"></i></a>
+                         </div>
+                    </div>
+                 </div>
+             </div>
+        </section>
+        
+        <!-- Seção Transformação -->
+        <section class="transformation-section" id="transformation" aria-labelledby="transformation-heading">
+             <div class="container">
+                 <h2 id="transformation-heading" class="animated-title">Resultados Concretos: <span>Funis Otimizados em Ação</span> ✨</h2>
+                 <p>Veja como nossa abordagem de otimização focada impulsionou as conversões e o ROI de nossos clientes.</p>
+                 <div class="transformation-grid">
+                     <article class="transformation-card">
+                         <div class="before-after"><div class="before"><i class="fas fa-arrow-down"></i><h4>Antes</h4><p>Taxa de Conversão de 1.5%</p></div><div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div><div class="after"><i class="fas fa-arrow-up"></i><h4>Depois</h4><p>Taxa de Conversão de 4.2%</p></div></div>
+                         <h3>E-commerce Triplica Conversões</h3>
+                         <p>Loja online otimizou o checkout e a comunicação pós-carrinho abandonado, resultando em um aumento significativo na taxa de conversão geral e no faturamento.</p>
+                         <div class="testimonial"><div class="testimonial-author"><img src="images/testimonials/client1.jpg" alt="Foto de Marcela Santos, CEO da Casa & Design" loading="lazy"><div class="author-info"><h4>Marcela Santos</h4><p>CEO, Casa & Design</p></div></div><blockquote><p>"A StrateUp identificou pontos cegos no nosso funil que nunca tínhamos percebido. O impacto foi imediato e substancial."</p></blockquote></div>
+                     </article>
+                     <article class="transformation-card">
+                          <div class="before-after"><div class="before"><i class="fas fa-arrow-down"></i><h4>Antes</h4><p>CAC de R$ 250</p></div><div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div><div class="after"><i class="fas fa-arrow-up"></i><h4>Depois</h4><p>CAC de R$ 110</p></div></div>
+                          <h3>SaaS Reduz Custo por Aquisição</h3>
+                          <p>Startup SaaS refinou a segmentação de anúncios e otimizou a página de demonstração, reduzindo drasticamente o custo para adquirir novos clientes pagantes.</p>
+                          <div class="testimonial"><div class="testimonial-author"><img src="images/testimonials/client2.jpg" alt="Foto de Rafael Mendes, Fundador da TechFlow" loading="lazy"><div class="author-info"><h4>Rafael Mendes</h4><p>Fundador, TechFlow</p></div></div><blockquote><p>"Conseguimos não só mais clientes, mas clientes melhores e com um custo muito menor, graças à otimização estratégica proposta pela StrateUp."</p></blockquote></div>
+                     </article>
+                 </div>
+             </div>
+        </section>
+        
+        <!-- Seção Bloqueios/Objeções -->
+        <section class="mental-blocks" id="blocks" aria-labelledby="blocks-heading">
+            <div class="container">
+                 <h2 id="blocks-heading" class="animated-title">Superando as Barreiras para a <span>Otimização Máxima</span> 🎯</h2>
+                 <p>Identifique e elimine as objeções comuns que podem estar impedindo você de implementar as melhorias necessárias.</p>
+                 <div class="blocks-container">
+                    <div class="block-tabs" role="tablist" aria-orientation="horizontal">
+                         <button class="block-tab active" role="tab" aria-selected="true" aria-controls="tabpanel-1" data-tab="1" id="tab-1">"Medo de Mexer"?</button>
+                         <button class="block-tab" role="tab" aria-selected="false" aria-controls="tabpanel-2" data-tab="2" id="tab-2" tabindex="-1">"Só Preciso de Tráfego"?</button>
+                         <button class="block-tab" role="tab" aria-selected="false" aria-controls="tabpanel-3" data-tab="3" id="tab-3" tabindex="-1">"Meu Processo é OK"?</button>
+                         <button class="block-tab" role="tab" aria-selected="false" aria-controls="tabpanel-4" data-tab="4" id="tab-4" tabindex="-1">"Não Tenho Dados"?</button>
+                    </div>
+                    <!-- Aba 1: Medo de Testar -->
+                    <div class="block-content active" role="tabpanel" id="tabpanel-1" aria-labelledby="tab-1" data-content="1">
+                         <h3><i class="fas fa-vial" style="color: var(--primary-accent-color); margin-right: 10px;"></i>Objeção: "Tenho Medo de Piorar as Coisas Testando"</h3>
+                         <p>A hesitação em testar novas abordagens vem do receio de prejudicar as conversões atuais. Mas a verdadeira perda está em *não* descobrir o que funciona melhor.</p>
+                         <div class="block-details">
+                             <div class="block-symptoms"><h4><i class="fas fa-exclamation-triangle"></i>Como Isso se Manifesta:</h4><ul><li>Manter o design ou copy antigo "porque sempre foi assim"?</li><li>Evitar testes A/B por parecerem complexos ou arriscados?</li><li>Preferir grandes mudanças de uma vez em vez de testes incrementais?</li><li>Basear decisões em "feeling" em vez de performance real?</li></ul></div>
+                             <div class="block-solution"><h4><i class="fas fa-lightbulb"></i>Nossa Solução - Testes Inteligentes:</h4><p>Nós desmistificamos os testes. Implementamos <strong>experimentos controlados</strong> (A/B, multivariados) focados em elementos chave, começando pelos de <strong>maior impacto potencial</strong>. Usamos ferramentas precisas e analisamos os dados para garantir que cada mudança seja uma <strong>melhoria validada</strong>, não um tiro no escuro.</p></div>
+                         </div>
+                    </div>
+                    <!-- Aba 2: Foco só no Tráfego -->
+                    <div class="block-content" role="tabpanel" id="tabpanel-2" aria-labelledby="tab-2" data-content="2" hidden>
+                         <h3><i class="fas fa-users" style="color: var(--primary-accent-color); margin-right: 10px;"></i>Objeção: "O Problema é Só Falta de Tráfego"</h3>
+                         <p>É tentador acreditar que mais visitantes resolverão tudo. No entanto, direcionar mais tráfego para um funil ineficiente é como encher um balde furado.</p>
+                         <div class="block-details">
+                            <div class="block-symptoms"><h4><i class="fas fa-funnel-dollar"></i>Como Isso se Manifesta:</h4><ul><li>Alto investimento em anúncios, mas baixo retorno sobre o investimento (ROI)?</li><li>Muitos visitantes no site, mas poucos convertem em leads ou vendas?</li><li>Sentir que precisa gastar cada vez mais para manter o mesmo nível de vendas?</li><li>Não saber quais fontes de tráfego realmente geram lucro?</li></ul></div>
+                            <div class="block-solution"><h4><i class="fas fa-chart-pie"></i>Nossa Solução - Otimização Holística:</h4><p>Trabalhamos nos dois lados: atrair o tráfego *certo* e garantir que seu funil esteja <strong>preparado para convertê-lo</strong>. Analisamos a jornada completa, otimizando páginas, ofertas e mensagens para <strong>maximizar o valor</strong> de cada visitante, tornando seu investimento em tráfego muito mais eficiente.</p></div>
+                         </div>
+                    </div>
+                    <!-- Abas 3-4 seguem o mesmo padrão -->
+                 </div>
+            </div>
+        </section>
+        
+        <!-- Seção Contato (Otimizada - DotCom Secrets Lead Conversion) -->
+        <section id="contact" aria-labelledby="contact-heading">
+             <div class="container" style="text-align: center;">
+                 <h2 id="contact-heading" class="animated-title">Pronto para Levar Suas Conversões <span>ao Próximo Nível?</span></h2>
+                 <p>Nossa Análise de Funil detalhada é o passo ideal para identificar oportunidades de otimização rápida e traçar um plano de crescimento acelerado.</p>
+                 
+                 <!-- Elemento de escassez (DotCom Secrets) -->
+                 <div class="scarcity-box">
+                     <div class="scarcity-title">DISPONIBILIDADE LIMITADA</div>
+                     <div class="scarcity-value">Apenas 5 vagas restantes neste mês</div>
+                 </div>
+                 
+                 <a href="#" class="btn btn-cta-yellow schedule-btn" style="margin-top: 20px; font-size: 1.2rem; padding: 18px 35px;">Agende Sua Análise Estratégica de Funil <i class="fas fa-arrow-right"></i></a>
+                 <p style="margin-top: 25px; font-size: 0.9em;"><small>Análise gratuita. Sem compromisso ou custo oculto.</small></p>
+             </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                 <div class="footer-logo"><a href="index.html" aria-label="StrateUp Página Inicial"><span>S</span>StrateUp</a><p>Otimizando Sua Jornada de Crescimento.</p></div>
+                 <div class="footer-links"><h4>Navegação</h4><ul><li><a href="#journey">Método</a></li><li><a href="#mentor">Especialistas</a></li><li><a href="#transformation">Resultados</a></li><li><a href="#blocks">Objeções</a></li><li><a href="#contact">Contato</a></li><li><a href="#">Blog</a></li><li><a href="/politica-privacidade">Privacidade</a></li><li><a href="/termos-uso">Termos</a></li></ul></div>
+                 <div class="footer-contact"><h4>Contato</h4><p>contato@strateup.com.br</p><p>+55 (XX) XXXX-XXXX</p><div class="footer-social"><a href="#" aria-label="LinkedIn StrateUp" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a><a href="#" aria-label="Instagram StrateUp" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></div></div>
+            </div>
+            <div class="footer-bottom"><p>© <span id="current-year"></span> StrateUp Consultoria Estratégica. Todos os direitos reservados.</p></div>
+         </div>
+    </footer>
+
+    <!-- Chatbot "O Conselheiro" -->
+    <aside id="chatbot-container" class="chatbot-container" aria-live="polite">
+        <button id="chatbot-toggle" class="chatbot-toggle" aria-label="Abrir O Conselheiro StrateUp" aria-expanded="false"><i class="fas fa-brain"></i></button>
+        <div id="chatbot-widget" class="chatbot-widget" role="dialog" aria-modal="true" aria-labelledby="chatbot-title">
+            <div class="chatbot-header">
+                <h3 id="chatbot-title">Conselheiro StrateUp</h3>
+                <button id="chatbot-close" class="chatbot-close" aria-label="Fechar Chatbot"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages" aria-live="polite">
+                <!-- Mensagens serão inseridas aqui via JS -->
+            </div>
+            <div class="chatbot-input-container">
+                <input type="text" id="chatbot-input" placeholder="Digite sua dúvida..." aria-label="Digite sua mensagem">
+                <button id="chatbot-send" aria-label="Enviar mensagem"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </aside>
+    
+    <!-- Lead Capture Popup (DotCom Secrets - Exit Intent) -->
+    <div class="lead-popup" id="lead-popup">
+        <div class="lead-popup-content">
+            <button class="lead-popup-close" id="lead-popup-close"><i class="fas fa-times"></i></button>
+            <h3 class="lead-popup-title">Espere! Antes de sair...</h3>
+            <div class="lead-popup-subtitle">Quer aumentar suas conversões em 30 dias?</div>
+            <p>Receba nosso guia exclusivo com 7 táticas de otimização de funil que você pode implementar <strong>hoje mesmo</strong> para ver resultados em 30 dias ou menos.</p>
+            <form class="lead-popup-form" id="lead-popup-form">
+                <!-- Campos ocultos para rastreamento (DotCom Secrets) -->
+                <input type="hidden" name="utm_source" id="hidden_utm_source">
+                <input type="hidden" name="utm_medium" id="hidden_utm_medium">
+                <input type="hidden" name="utm_campaign" id="hidden_utm_campaign">
+                <input type="hidden" name="lead_temp" id="hidden_lead_temp" value="warm">
+                <input type="hidden" name="lead_origin" id="hidden_lead_origin" value="exit_intent">
+                <input type="hidden" name="page_url" id="hidden_page_url">
+                <input type="hidden" name="referrer" id="hidden_referrer">
+                
+                <!-- Campos visíveis -->
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu melhor email" required>
+                <button type="submit">QUERO RECEBER O GUIA</button>
+            </form>
+            <p class="lead-popup-privacy">Seus dados estão seguros. Não enviamos spam.</p>
+        </div>
+    </div>
+    
+    <!-- Campos ocultos para rastreamento (DotCom Secrets) -->
+    <div class="lead-origin-tracker">
+        <input type="hidden" id="visit_time" value="">
+        <input type="hidden" id="page_url" value="">
+        <input type="hidden" id="referrer" value="">
+        <input type="hidden" id="lead_temp" value="warm">
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Atualizar ano no footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+            
+            // Rastreamento de lead (DotCom Secrets)
+            function trackLeadOrigin() {
+                // Armazenar data e hora da visita
+                document.getElementById('visit_time').value = new Date().toString();
+                
+                // Armazenar URL atual
+                document.getElementById('page_url').value = window.location.href;
+                document.getElementById('hidden_page_url').value = window.location.href;
+                
+                // Armazenar referenciador
+                const referrer = document.referrer;
+                document.getElementById('referrer').value = referrer;
+                document.getElementById('hidden_referrer').value = referrer;
+                
+                // Capturar parâmetros UTM
+                const urlParams = new URLSearchParams(window.location.search);
+                const utmSource = urlParams.get('utm_source');
+                const utmMedium = urlParams.get('utm_medium');
+                const utmCampaign = urlParams.get('utm_campaign');
+                
+                if (utmSource) document.getElementById('hidden_utm_source').value = utmSource;
+                if (utmMedium) document.getElementById('hidden_utm_medium').value = utmMedium;
+                if (utmCampaign) document.getElementById('hidden_utm_campaign').value = utmCampaign;
+                
+                // Armazenar em cookies para persistência
+                if (utmSource) setCookie('utm_source', utmSource, 30);
+                if (utmMedium) setCookie('utm_medium', utmMedium, 30);
+                if (utmCampaign) setCookie('utm_campaign', utmCampaign, 30);
+                if (referrer) setCookie('referrer', referrer, 30);
+            }
+            
+            // Função para definir cookies
+            function setCookie(name, value, days) {
+                let expires = '';
+                if (days) {
+                    const date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    expires = '; expires=' + date.toUTCString();
+                }
+                document.cookie = name + '=' + (value || '') + expires + '; path=/';
+            }
+            
+            // Função para alternar o menu mobile
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const nav = document.querySelector('.nav');
+            
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    nav.classList.toggle('active');
+                    const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+                    mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
+                    mobileMenuBtn.innerHTML = isExpanded ? '<i class="fas fa-bars"></i>' : '<i class="fas fa-times"></i>';
+                    document.body.classList.toggle('no-scroll');
+                });
+            }
+            
+            // Efeito de palavras cíclicas no hero
+            const cyclingWords = ['em Clientes?', 'em Vendas?', 'em Resultados?'];
+            let currentWordIndex = 0;
+            const cyclingWordElement = document.getElementById('cycling-word');
+            
+            if (cyclingWordElement) {
+                setInterval(() => {
+                    cyclingWordElement.classList.add('fade-out');
+                    
+                    setTimeout(() => {
+                        currentWordIndex = (currentWordIndex + 1) % cyclingWords.length;
+                        cyclingWordElement.textContent = cyclingWords[currentWordIndex];
+                        cyclingWordElement.classList.remove('fade-out');
+                        cyclingWordElement.classList.add('fade-in');
+                        
+                        setTimeout(() => {
+                            cyclingWordElement.classList.remove('fade-in');
+                        }, 500);
+                    }, 500);
+                }, 4000);
+            }
+            
+            // Animação de h2 ao scroll
+            const animatedTitles = document.querySelectorAll('.animated-title');
+            
+            if (animatedTitles.length) {
+                // Quebrar cada título em palavras
+                animatedTitles.forEach(title => {
+                    const text = title.textContent;
+                    const words = text.split(' ');
+                    title.textContent = '';
+                    
+                    words.forEach(word => {
+                        const span = document.createElement('span');
+                        span.textContent = word + ' ';
+                        span.className = 'h-word';
+                        title.appendChild(span);
+                    });
+                });
+                
+                // Observar quando os títulos entram na viewport
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animate-title');
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                animatedTitles.forEach(title => {
+                    observer.observe(title);
+                });
+            }
+            
+            // Funcionalidade das abas (Bloqueios Mentais)
+            const blockTabs = document.querySelectorAll('.block-tab');
+            const blockContents = document.querySelectorAll('.block-content');
+            
+            if (blockTabs.length && blockContents.length) {
+                blockTabs.forEach(tab => {
+                    tab.addEventListener('click', () => {
+                        const tabId = tab.getAttribute('data-tab');
+                        
+                        // Desativar todas as abas
+                        blockTabs.forEach(t => {
+                            t.classList.remove('active');
+                            t.setAttribute('aria-selected', 'false');
+                            t.setAttribute('tabindex', '-1');
+                        });
+                        
+                        // Esconder todos os conteúdos
+                        blockContents.forEach(content => {
+                            content.classList.remove('active');
+                            content.setAttribute('hidden', 'true');
+                        });
+                        
+                        // Ativar a aba clicada
+                        tab.classList.add('active');
+                        tab.setAttribute('aria-selected', 'true');
+                        tab.removeAttribute('tabindex');
+                        
+                        // Mostrar o conteúdo correspondente
+                        const activeContent = document.querySelector(`.block-content[data-content="${tabId}"]`);
+                        if (activeContent) {
+                            activeContent.classList.add('active');
+                            activeContent.removeAttribute('hidden');
+                        }
+                    });
+                });
+                
+                // Navegação por teclado nas abas
+                blockTabs.forEach(tab => {
+                    tab.addEventListener('keydown', (e) => {
+                        const tabs = Array.from(blockTabs);
+                        const index = tabs.indexOf(tab);
+                        let nextTab;
+                        
+                        switch (e.key) {
+                            case 'ArrowRight':
+                            case 'ArrowDown':
+                                nextTab = tabs[(index + 1) % tabs.length];
+                                break;
+                            case 'ArrowLeft':
+                            case 'ArrowUp':
+                                nextTab = tabs[(index - 1 + tabs.length) % tabs.length];
+                                break;
+                            case 'Home':
+                                nextTab = tabs[0];
+                                break;
+                            case 'End':
+                                nextTab = tabs[tabs.length - 1];
+                                break;
+                            default:
+                                return;
+                        }
+                        
+                        nextTab.click();
+                        nextTab.focus();
+                        e.preventDefault();
+                    });
+                });
+            }
+            
+            // Chatbot funcionalidade
+            const chatbotToggle = document.getElementById('chatbot-toggle');
+            const chatbotWidget = document.getElementById('chatbot-widget');
+            const chatbotClose = document.getElementById('chatbot-close');
+            const chatbotMessages = document.getElementById('chatbot-messages');
+            const chatbotInput = document.getElementById('chatbot-input');
+            const chatbotSend = document.getElementById('chatbot-send');
+            
+            if (chatbotToggle && chatbotWidget) {
+                // Abrir/fechar chatbot
+                chatbotToggle.addEventListener('click', () => {
+                    chatbotWidget.classList.toggle('active');
+                    const isExpanded = chatbotToggle.getAttribute('aria-expanded') === 'true';
+                    chatbotToggle.setAttribute('aria-expanded', !isExpanded);
+                    
+                    if (!isExpanded) {
+                        // Adicionar mensagem inicial do bot quando o chatbot é aberto
+                        if (chatbotMessages.children.length === 0) {
+                            addBotMessage('Olá! Sou o Conselheiro StrateUp. Como posso ajudar você a otimizar seu funil de vendas hoje?');
+                            
+                            // Simular está digitando
+                            setTimeout(() => {
+                                showTypingIndicator();
+                                
+                                setTimeout(() => {
+                                    hideTypingIndicator();
+                                    addBotMessage('Você gostaria de saber mais sobre nossa metodologia de otimização ou ver alguns casos de sucesso?');
+                                }, 2000);
+                            }, 1000);
+                        }
+                        
+                        chatbotInput.focus();
+                    }
+                });
+                
+                // Fechar chatbot
+                if (chatbotClose) {
+                    chatbotClose.addEventListener('click', () => {
+                        chatbotWidget.classList.remove('active');
+                        chatbotToggle.setAttribute('aria-expanded', 'false');
+                    });
+                }
+                
+                // Enviar mensagem
+                function sendMessage() {
+                    const message = chatbotInput.value.trim();
+                    if (message) {
+                        addUserMessage(message);
+                        chatbotInput.value = '';
+                        
+                        // Simular resposta do bot
+                        setTimeout(() => {
+                            showTypingIndicator();
+                            
+                            setTimeout(() => {
+                                hideTypingIndicator();
+                                
+                                // Respostas predefinidas
+                                if (message.toLowerCase().includes('preço') || message.toLowerCase().includes('valor') || message.toLowerCase().includes('custo')) {
+                                    addBotMessage('Nossa análise estratégica de funil é oferecida gratuitamente para empresas qualificadas. Após a análise, apresentamos um plano personalizado com opções que se adequam ao seu orçamento. Você gostaria de agendar sua análise gratuita?');
+                                } else if (message.toLowerCase().includes('tempo') || message.toLowerCase().includes('prazo')) {
+                                    addBotMessage('O processo de otimização varia conforme a complexidade do seu funil, mas geralmente vemos os primeiros resultados em 14-30 dias. Você já tem um funil de vendas estruturado?');
+                                } else {
+                                    addBotMessage('Obrigado pela sua mensagem. Um de nossos especialistas entrará em contato em breve para discutir como podemos ajudar a otimizar seu funil de vendas. Enquanto isso, gostaria de agendar uma análise gratuita?');
+                                }
+                            }, 1500);
+                        }, 500);
+                    }
+                }
+                
+                if (chatbotSend) {
+                    chatbotSend.addEventListener('click', sendMessage);
+                }
+                
+                if (chatbotInput) {
+                    chatbotInput.addEventListener('keypress', (e) => {
+                        if (e.key === 'Enter') {
+                            sendMessage();
+                        }
+                    });
+                }
+                
+                // Funções auxiliares para o chatbot
+                function addBotMessage(message) {
+                    const messageDiv = document.createElement('div');
+                    messageDiv.className = 'chatbot-message bot';
+                    messageDiv.textContent = message;
+                    chatbotMessages.appendChild(messageDiv);
+                    chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+                }
+                
+                function addUserMessage(message) {
+                    const messageDiv = document.createElement('div');
+                    messageDiv.className = 'chatbot-message user';
+                    messageDiv.textContent = message;
+                    chatbotMessages.appendChild(messageDiv);
+                    chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+                }
+                
+                function showTypingIndicator() {
+                    const typingDiv = document.createElement('div');
+                    typingDiv.className = 'typing-indicator';
+                    typingDiv.id = 'typing-indicator';
+                    typingDiv.innerHTML = '<span></span><span></span><span></span>';
+                    chatbotMessages.appendChild(typingDiv);
+                    chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+                }
+                
+                function hideTypingIndicator() {
+                    const typingIndicator = document.getElementById('typing-indicator');
+                    if (typingIndicator) {
+                        typingIndicator.remove();
+                    }
+                }
+            }
+            
+            // Lead popup (exit intent)
+            const leadPopup = document.getElementById('lead-popup');
+            const leadPopupClose = document.getElementById('lead-popup-close');
+            const leadPopupForm = document.getElementById('lead-popup-form');
+            
+            if (leadPopup && leadPopupClose) {
+                // Fechar popup
+                leadPopupClose.addEventListener('click', () => {
+                    leadPopup.classList.remove('active');
+                });
+                
+                // Detectar intenção de saída
+                document.addEventListener('mouseleave', (e) => {
+                    // Se o mouse sair pelo topo da página e o popup não tiver sido mostrado antes
+                    if (e.clientY < 0 && !sessionStorage.getItem('popupShown')) {
+                        leadPopup.classList.add('active');
+                        sessionStorage.setItem('popupShown', 'true');
+                    }
+                });
+                
+                // Também mostrar após tempo determinado
+                setTimeout(() => {
+                    if (!sessionStorage.getItem('popupShown')) {
+                        leadPopup.classList.add('active');
+                        sessionStorage.setItem('popupShown', 'true');
+                    }
+                }, 30000); // 30 segundos
+                
+                // Submissão do formulário
+                if (leadPopupForm) {
+                    leadPopupForm.addEventListener('submit', (e) => {
+                        e.preventDefault();
+                        // Aqui seria a integração com sistema de email
+                        alert('Obrigado! Seu guia foi enviado para seu email.');
+                        leadPopup.classList.remove('active');
+                    });
+                }
+            }
+            
+            // Simulação de clique no vídeo
+            const videoPlaceholder = document.querySelector('.video-placeholder');
+            if (videoPlaceholder) {
+                videoPlaceholder.addEventListener('click', () => {
+                    alert('O vídeo seria reproduzido aqui em uma implementação completa.');
+                });
+            }
+            
+            // Iniciar rastreamento
+            trackLeadOrigin();
+        });
+    </script>
+</body>
+</html>
