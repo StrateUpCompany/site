@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Inicial -->
+    <title>StrateUp - Diagnóstico Estratégico Rápido para Seu Negócio</title>
+    <meta name="description" content="Responda 6 perguntas rápidas e receba um diagnóstico estratégico personalizado da StrateUp + acesso a um curso introdutório gratuito* para destravar seu potencial.">
+    <meta name="robots" content="noindex, follow"> <!-- Manter noindex por enquanto -->
+    <link rel="canonical" href="[YOUR_WEBSITE_URL_HERE]/index.html">
+
+    <!-- Favicon, Fontes, Schema -->
+    <link rel="icon" href="favicon.ico" sizes="any"> <!-- Exemplo: Verificar se existe na raiz -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"> <!-- Exemplo: Verificar se existe na raiz -->
+    <link rel="icon" href="icon.svg" type="image/svg+xml"> <!-- Exemplo: Verificar se existe na raiz -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="application/ld+json">{ "@context": "https://schema.org", "@type": "WebSite", "name": "StrateUp", "url": "[YOUR_WEBSITE_URL_HERE]", "potentialAction": { "@type": "SearchAction", "target": "[YOUR_WEBSITE_URL_HERE]/search?q={search_term_string}", "query-input": "required name=search_term_string" } }</script>
+
+    <!-- ESTILOS COMPLETOS INLINE -->
+    <style>
+        /* === Colar aqui TODO o bloco <style> final e corrigido das versões anteriores === */
+        /* (Incluindo :root, reset, body, container, tipografia, botões, seções, header, hero, */
+        /* features, animações, cards, abas (estilos base), contato, footer, chatbot base, */
+        /* responsividade, sr-only, E os estilos específicos do #entry-overlay, .entry-container, */
+        /* .diagnostic-form, .progress-bar, .form-step, modal #strategic-pitch etc.) */
+        :root {
+            --primary-accent-color: #00A9FF; --cta-color: #FFD700; --cta-hover-color: #ffcd38; --dark-bg: #121212; --medium-dark-bg: #1e1e1e; --light-text: #e0e0e0; --medium-text: #a0a0a0; --dark-text-on-cta: #121212; --border-color: #333333; --border-radius: 6px; --box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); --success-color: #198754; --danger-color: #dc3545; --warning-color: #ff8f00; --info-color: #0dcaf0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { font-family: 'Montserrat', sans-serif; line-height: 1.6; background-color: var(--dark-bg); color: var(--light-text); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+        body.no-scroll { overflow-y: hidden; }
+        .container { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+        h1, h2, h3, h4 { font-weight: 700; margin-bottom: 0.8em; color: var(--light-text); line-height: 1.3; }
+        h1 { font-size: clamp(2.2rem, 1.8rem + 1.8vw, 3.5rem); letter-spacing: -1.5px; font-weight: 800; }
+        h2 { font-size: clamp(1.8rem, 1.6rem + 1vw, 2.8rem); text-align: center; margin-bottom: 1.8em; font-weight: 700;}
+        h1 span, h2 span { color: var(--primary-accent-color); }
+        p { color: var(--medium-text); margin-bottom: 1.5em; font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);}
+        a { color: var(--primary-accent-color); text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: var(--cta-color); }
+        .btn { padding: clamp(12px, 1.5vw, 15px) clamp(25px, 3vw, 35px); font-size: clamp(0.9rem, 0.85rem + 0.2vw, 1.05rem); border-radius: var(--border-radius); text-decoration: none; display: inline-block; transition: all 0.3s ease; cursor: pointer; font-weight: 600; border: none; text-align: center; }
+        .btn-cta-yellow { background: linear-gradient(45deg, var(--cta-color), #FFC800); color: var(--dark-text-on-cta); box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3); }
+        .btn-cta-yellow:hover { background: linear-gradient(45deg, var(--cta-hover-color), #FFD700); transform: translateY(-3px) scale(1.03); box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4); }
+        .btn-secondary { background-color: transparent; color: var(--primary-accent-color); border: 2px solid var(--primary-accent-color); }
+        .btn-secondary:hover { background-color: var(--primary-accent-color); color: var(--dark-bg); }
+        section { padding: clamp(60px, 8vw, 100px) 0; }
+        section:nth-child(odd) { background-color: var(--medium-dark-bg); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); }
+        section:last-of-type { border-bottom: none; }
+        .header { background-color: rgba(18, 18, 18, 0.9); padding: 15px 0; box-shadow: 0 3px 10px rgba(0,0,0,0.5); position: sticky; top: 0; z-index: 998; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--border-color);}
+        .header .container { display: flex; justify-content: space-between; align-items: center;}
+        .header .logo { color: var(--white-color); font-weight: 800; font-size: 1.9rem; }
+        .header .logo span { background-color: var(--primary-accent-color); color: var(--white-color); padding: 3px 9px; border-radius: 4px; margin-right: 6px; display: inline-block;}
+        .nav { display: flex; align-items: center; }
+        .nav-links { list-style: none; display: flex; margin: 0; padding: 0; }
+        .nav-links li { margin-left: 5px; }
+        .nav-links a { color: var(--medium-text); padding: 10px 15px; font-weight: 500; transition: color 0.3s ease; font-size: 0.95rem; border-radius: 4px; }
+        .nav-links a:hover, .nav-links a.active { color: var(--white-color); background-color: rgba(255, 255, 255, 0.1); }
+        .nav-cta { margin-left: 30px; display: flex; gap: 15px;}
+        .nav-cta .btn { padding: 10px 20px; font-size: 0.9rem; }
+        .mobile-menu-btn { display: none; background: none; border: none; color: var(--light-text); font-size: 1.8rem; cursor: pointer; z-index: 1001; }
+        .nav.active .nav-links { display: flex; flex-direction: column; position: absolute; top: 70px; left: 0; background-color: var(--medium-dark-bg); width: 100%; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-top: 1px solid var(--border-color); }
+        .nav.active .nav-links li { margin: 10px 0; text-align: center;}
+        .nav.active .nav-cta { display: flex; flex-direction: column; align-items: center; margin-top: 15px; margin-left: 0; padding-top: 15px; border-top: 1px solid var(--border-color); position: absolute; top: calc(70px + 250px); /* Ajustar */ left: 0; width: 100%; background: var(--medium-dark-bg); padding-bottom: 20px;}
+        .nav.active .nav-cta .btn { width: 80%; max-width: 300px; margin-bottom: 10px;}
+        /* Animações H1/H2 */
+        .h-word { display: inline-block; opacity: 0; transform: translateY(20px); }
+        .animated-title .h-word, #hero-heading .h-word { animation: word-slide-up 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
+        #hero-heading .h-word { animation-play-state: running; } /* H1 anima no load */
+        h2.animate-title .h-word { animation-play-state: running; } /* H2 anima com JS */
+        @keyframes word-slide-up { to { opacity: 1; transform: translateY(0); } }
+        .word-cycle-container { position: relative; min-width: 200px; text-align: center; display: inline-block; vertical-align: bottom;}
+        #cycling-word { transition: opacity 0.35s ease-in-out; display: inline-block; color: var(--cta-color); font-weight: 700; }
+        #cycling-word.fade-out { opacity: 0; } #cycling-word.fade-in { opacity: 1; }
+        /* Estilos Overlay e Formulário */
+        #entry-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(18, 18, 18, 0.97); display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease-in-out; overflow-y: auto; padding: 30px 15px; }
+        #entry-overlay.hidden { opacity: 0; pointer-events: none; }
+        .entry-container { background-color: var(--medium-dark-bg); color: var(--light-text); padding: clamp(25px, 4vw, 45px); border-radius: var(--border-radius); display: flex; flex-direction: column; max-width: 980px; width: 100%; max-height: 95vh; overflow: hidden; border: 1px solid var(--border-color); box-shadow: 0 10px 40px rgba(0,0,0,0.7); }
+        .entry-content-wrapper { display: flex; width: 100%; gap: 30px; flex-grow: 1; overflow-y: auto; padding-right: 10px; }
+         .entry-content-wrapper::-webkit-scrollbar { width: 8px; } .entry-content-wrapper::-webkit-scrollbar-track { background: var(--dark-bg); border-radius: 4px;} .entry-content-wrapper::-webkit-scrollbar-thumb { background-color: var(--primary-accent-color); border-radius: 4px; border: 2px solid var(--dark-bg); }
+        .entry-left, .entry-right { width: 50%; padding: 0; display: flex; flex-direction: column; }
+        .entry-left { border-right: 1px solid var(--border-color); padding-right: 30px; }
+        .entry-right { padding-left: 30px; overflow: hidden; }
+        .entry-left h2 { color: var(--white-color); font-size: clamp(1.6rem, 1.4rem + 1vw, 2rem); margin-bottom: 15px; }
+        .entry-left h2 span { color: var(--primary-accent-color); }
+        .entry-left p { color: var(--medium-text); font-size: clamp(0.9rem, 0.85rem + 0.2vw, 1rem); margin-bottom: 25px; }
+        .entry-benefits { margin-bottom: 25px; }
+        .entry-benefits .benefit-item { display: flex; align-items: center; margin-bottom: 12px; font-size: 0.9rem; color: var(--light-text);}
+        .entry-benefits .benefit-item i { color: var(--success-color); margin-right: 10px; font-size: 1.1rem; }
+        .entry-clients { margin-top: auto; padding-top: 20px; border-top: 1px solid var(--border-color); text-align: center; }
+        .entry-clients .client-logo { height: 35px; width: auto; margin: 0 8px 10px 8px; filter: grayscale(80%) opacity(0.7); transition: filter 0.3s ease; vertical-align: middle; }
+        .entry-clients .client-logo:hover { filter: grayscale(0%) opacity(1); }
+        .entry-clients p { font-size: 0.8rem; color: var(--medium-text); margin-top: 5px; margin-bottom: 5px; }
+        .entry-right h3 { text-align: center; color: var(--white-color); margin-bottom: 25px; font-size: clamp(1.4rem, 1.2rem + 0.8vw, 1.8rem); }
+        .diagnostic-form { width: 100%; flex-grow: 1; display: flex; flex-direction: column; }
+        .progress-bar { width: 100%; background-color: var(--dark-bg); border-radius: 10px; overflow: hidden; margin-bottom: 30px; height: 28px; position: relative; border: 1px solid var(--border-color); }
+        .progress-fill { width: 0%; height: 100%; background: linear-gradient(90deg, var(--primary-accent-color), #0056b3); transition: width 0.5s ease-out; }
+        .progress-text { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; color: var(--white-color); font-size: 0.85rem; font-weight: 600; text-shadow: 1px 1px 2px rgba(0,0,0,0.6); }
+        .form-step { display: none; animation: fadeIn 0.5s ease; flex-grow: 1; display: flex; flex-direction: column;}
+        .form-step.active { display: flex; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .form-step legend { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); font-weight: 600; margin-bottom: 25px; color: var(--light-text); text-align: center; width: 100%;}
+        .form-step legend.animated-title .h-word { display: inline-block; opacity: 0; transform: translateY(15px); }
+        .form-step.active legend.animated-title .h-word { animation: word-slide-up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
+        .form-step > p { font-size: clamp(0.85rem, 0.8rem + 0.2vw, 0.95rem); text-align: center; margin-bottom: 20px; color: var(--medium-text);}
+        .radio-options, .checkbox-options { display: flex; flex-direction: column; gap: 12px; margin-bottom: 25px; }
+        .checkbox-options { columns: 2; -webkit-columns: 2; -moz-columns: 2; gap: 10px; }
+        .radio-option, .checkbox-option { background-color: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); border-radius: var(--border-radius); padding: 12px 18px; display: flex; align-items: center; cursor: pointer; transition: background-color 0.3s ease, border-color 0.3s ease; }
+        .radio-option:hover, .checkbox-option:hover { background-color: rgba(0, 169, 255, 0.1); border-color: var(--primary-accent-color); }
+        .radio-option input[type="radio"], .checkbox-option input[type="checkbox"] { margin-right: 12px; accent-color: var(--primary-accent-color); width: 18px; height: 18px; flex-shrink: 0; }
+        .radio-option label, .checkbox-option label { color: var(--medium-text); font-size: clamp(0.9rem, 0.85rem + 0.2vw, 1rem); flex-grow: 1; cursor: pointer;}
+        .radio-option input[type="radio"]:checked + label, .checkbox-option input[type="checkbox"]:checked + label { color: var(--light-text); font-weight: 500;}
+        .form-group { margin-bottom: 20px; }
+        .form-group label { font-weight: 500; display: block; margin-bottom: 8px; font-size: 0.9rem; }
+        .form-group input[type="text"], .form-group input[type="email"] { width: 100%; padding: 12px; border-radius: 4px; border: 1px solid #ccc; background: #fff; color: #333; font-size: 1rem; }
+        .form-group input[type="text"]::placeholder, .form-group input[type="email"]::placeholder { color: #888; opacity: 1;}
+        .form-buttons { display: flex; justify-content: space-between; margin-top: auto; padding-top: 20px; }
+        .form-buttons button { padding: 12px 28px; font-size: 1rem; border-radius: var(--border-radius); cursor: pointer; border: none; font-weight: 600; transition: all 0.3s ease; }
+        .form-buttons button:disabled { opacity: 0.4; cursor: not-allowed; transform: none !important; box-shadow: none !important; }
+        .form-buttons button i { margin-left: 8px; margin-right: -5px; }
+        .form-buttons .prev-step i { margin-right: 8px; margin-left: -5px; }
+        .prev-step { background-color: var(--secondary-color); color: var(--white-color); }
+        .prev-step:hover:not(:disabled) { background-color: #5a6268; }
+        .next-step { background-color: var(--primary-accent-color); color: var(--dark-bg); }
+        .next-step:hover:not(:disabled) { background-color: #007bff; }
+        .submit-form { background: linear-gradient(45deg, var(--cta-color), #FFC800); color: var(--dark-text-on-cta); box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3); }
+        .submit-form:hover:not(:disabled) { background: linear-gradient(45deg, var(--cta-hover-color), #FFD700); transform: translateY(-3px) scale(1.03); box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4); }
+        .form-privacy { text-align: center; margin-top: 25px; font-size: 0.8rem; color: var(--medium-text); }
+        .form-privacy a { color: var(--primary-accent-color); text-decoration: underline; }
+        #diagnostic-chatbot { background: rgba(0,0,0,0.2); padding: 10px; border-radius: 4px; margin-top: 15px; min-height: 40px; max-height: 80px; overflow-y: auto;}
+        #diagnostic-chatbot .chatbot-message { font-size: 0.85em; margin-bottom: 5px; padding: 5px 8px; background: none; color: var(--info-color); line-height: 1.4;}
+        /* Modal Styles */
+        #strategic-pitch { position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(18, 18, 18, 0.98); z-index:1010; display:flex; justify-content:center; align-items:center; opacity: 0; transition: opacity 0.4s ease-in-out; display: none; } /* Começa escondido */
+        #strategic-pitch .pitch-container { background:var(--medium-dark-bg); color: var(--light-text); padding:clamp(30px, 5vw, 50px); border-radius:var(--border-radius); max-width:750px; width:90%; border:1px solid var(--border-color); text-align:center; max-height: 90vh; overflow-y: auto; position: relative; box-shadow: 0 15px 50px rgba(0,0,0,0.8); }
+        #strategic-pitch .close-pitch { position:absolute; top:15px; right:15px; background:none; border:none; font-size:1.8rem; color:var(--medium-text); cursor:pointer; line-height: 1; }
+        #strategic-pitch h2 { color: var(--light-text); margin-bottom: 15px; font-size: 1.8rem;}
+        #strategic-pitch > .pitch-container > p { color: var(--medium-text); margin-bottom: 30px; }
+        #diagnosis-content { margin-top:20px; text-align:left; background: var(--dark-bg); padding: 25px; border-radius: 5px; border: 1px solid var(--border-color); }
+        #diagnosis-content p { margin-bottom: 18px; font-size: 1rem; } /* Aumenta espaço e tamanho */
+        #diagnosis-content p strong { color: var(--light-text); display: flex; align-items: center; margin-bottom: 5px; font-size: 1.05rem;}
+        #diagnosis-content p strong i { margin-right: 10px; color: var(--primary-accent-color); width: 20px; text-align: center;}
+        #diagnosis-content span { display: block; margin-top: 5px; color: var(--medium-text); padding-left: 30px; /* Alinha com texto abaixo do ícone */}
+        #lead-temp-indicator { font-weight:bold; padding: 3px 8px; border-radius: 4px; background-color: var(--primary-accent-color); color: var(--dark-bg); display: inline-block; margin-left: 5px;}
+        #diagnosis-content p:last-child { margin-bottom: 0; }
+        #strategic-pitch div[style*="margin-top:35px"] { margin-top:35px; }
+        #strategic-pitch div[style*="margin-top:35px"] .btn-cta-yellow { font-size: 1.1rem; padding: 15px 30px;}
+        #strategic-pitch div[style*="margin-top:35px"] p { font-size: 0.75rem; margin-top: 15px; }
+         /* Responsividade */
+         @media (max-width: 992px) { .entry-content-wrapper { flex-direction: column; overflow-y: auto; padding-right: 0; } .entry-left, .entry-right { width: 100%; padding: 0; border-right: none; overflow: visible;} .entry-left { border-bottom: 1px solid var(--border-color); padding-bottom: 30px; margin-bottom: 30px; text-align: center;} .entry-right { padding-left: 0; } .entry-clients { margin-top: 20px; } }
+         @media (max-width: 576px) { .entry-container { padding: 15px; } .entry-left { padding-bottom: 20px; margin-bottom: 20px; } .checkbox-options { columns: 1; -webkit-columns: 1; -moz-columns: 1; } .form-buttons { flex-direction: column-reverse; gap: 15px; } .form-buttons button { width: 100%; } #strategic-pitch .pitch-container { padding: 25px 20px;} #strategic-pitch h2 { font-size: 1.5rem;} }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
+        @keyframes typing-dot { 0%, 60%, 100% { opacity: 0.2; transform: scale(0.8); } 30% { opacity: 1; transform: scale(1); } }
+        .typing-indicator span { display: inline-block; margin: 0 1px; }
+    </style>
+</head>
+<body>
+
+    <!-- Overlay de Entrada com Formulário Interativo -->
+    <div id="entry-overlay" class="active">
+        <div class="entry-container">
+            <div class="entry-content-wrapper">
+                <!-- Coluna Esquerda: Proposta de Valor -->
+                <div class="entry-left">
+                    <h2>Descubra Como Aumentar Seus Resultados em até <span>35%</span></h2>
+                    <p>Responda nosso diagnóstico rápido (6 perguntas) e receba insights estratégicos personalizados + acesso a um curso introdutório exclusivo*.</p>
+                    <div class="entry-benefits">
+                        <div class="benefit-item"><i class="fas fa-check-circle"></i><p>Estratégias validadas em +500 empresas.</p></div>
+                        <div class="benefit-item"><i class="fas fa-check-circle"></i><p>Resultados mensuráveis em <90 dias.</p></div>
+                        <div class="benefit-item"><i class="fas fa-check-circle"></i><p>97% de satisfação garantida.</p></div>
+                    </div>
+                    <div class="entry-clients">
+                         <p>Empresas que confiam em nossa metodologia:</p>
+                        <img src="images/clientes/cliente1.png" alt="Logotipo Cliente 1" class="client-logo" loading="lazy">
+                        <img src="images/clientes/cliente2.png" alt="Logotipo Cliente 2" class="client-logo" loading="lazy">
+                        <img src="images/clientes/cliente3.png" alt="Logotipo Cliente 3" class="client-logo" loading="lazy">
+                    </div>
+                    <p style="font-size: 0.75rem; margin-top: 15px;">*Curso introdutório gratuito, cobramos apenas o envio.</p>
+                </div>
+
+                <!-- Coluna Direita: Formulário Interativo -->
+                <div class="entry-right">
+                    <h3>Diagnóstico Estratégico Interativo</h3>
+                    <form id="entry-form" class="diagnostic-form" aria-labelledby="diagnostic-heading">
+                        <h4 id="diagnostic-heading" class="sr-only">Formulário de Diagnóstico Estratégico StrateUp</h4>
+                        <div class="progress-bar" aria-hidden="true">
+                            <div class="progress-fill" style="width: 0%;"></div>
+                            <div class="progress-text">Etapa 1 de 6</div>
+                        </div>
+
+                        <!-- Etapa 1: Desafio -->
+                        <fieldset class="form-step active" data-step="1">
+                            <legend class="animated-title">🎯 Qual o **maior desafio** que seu negócio enfrenta AGORA?</legend>
+                            <div class="radio-options">
+                                <div class="radio-option"><input type="radio" id="q1-acquisition" name="challenge" value="acquisition" required><label for="q1-acquisition">Atrair Clientes Qualificados</label></div>
+                                <div class="radio-option"><input type="radio" id="q1-conversion" name="challenge" value="conversion"><label for="q1-conversion">Converter Leads em Vendas</label></div>
+                                <div class="radio-option"><input type="radio" id="q1-retention" name="challenge" value="retention"><label for="q1-retention">Reter Clientes / Aumentar LTV</label></div>
+                                <div class="radio-option"><input type="radio" id="q1-scalability" name="challenge" value="scalability"><label for="q1-scalability">Escalar Operações / Processos</label></div>
+                                <div class="radio-option"><input type="radio" id="q1-profitability" name="challenge" value="profitability"><label for="q1-profitability">Aumentar a Lucratividade</label></div>
+                                <div class="radio-option"><input type="radio" id="q1-other" name="challenge" value="other"><label for="q1-other">Outro / Não Tenho Certeza</label></div>
+                            </div>
+                            <button type="button" class="next-step" disabled>Próximo <i class="fas fa-arrow-right"></i></button>
+                        </fieldset>
+
+                        <!-- Etapa 2: Meta -->
+                        <fieldset class="form-step" data-step="2">
+                             <legend class="animated-title">🚀 Olhando 12 meses à frente, qual a **principal meta** que você quer alcançar?</legend>
+                             <div class="radio-options">
+                                <div class="radio-option"><input type="radio" id="q2-growth" name="goal" value="growth" required><label for="q2-growth">Crescimento Exponencial da Receita</label></div>
+                                <div class="radio-option"><input type="radio" id="q2-profit" name="goal" value="profitability"><label for="q2-profit">Máxima Lucratividade / Margens Altas</label></div>
+                                <div class="radio-option"><input type="radio" id="q2-automation" name="goal" value="automation"><label for="q2-automation">Automatizar Operações / Menos Dependência de Mim</label></div>
+                                <div class="radio-option"><input type="radio" id="q2-impact" name="goal" value="impact"><label for="q2-impact">Maior Impacto no Mercado / Liderança</label></div>
+                                <div class="radio-option"><input type="radio" id="q2-freedom" name="goal" value="freedom"><label for="q2-freedom">Mais Tempo Livre / Liberdade Financeira</label></div>
+                             </div>
+                             <div class="form-buttons"><button type="button" class="prev-step"><i class="fas fa-arrow-left"></i> Voltar</button><button type="button" class="next-step" disabled>Próximo <i class="fas fa-arrow-right"></i></button></div>
+                        </fieldset>
+
+                        <!-- Etapa 3: Faturamento/Nicho -->
+                        <fieldset class="form-step" data-step="3">
+                            <legend class="animated-title">📊 Para entender seu contexto, qual o **faturamento anual** aproximado?</legend>
+                             <div class="radio-options">
+                                 <div class="radio-option"><input type="radio" id="q3-rev-a" name="revenue" value="<100k" required><label for="q3-rev-a">Menos de R$ 100 mil</label></div>
+                                 <div class="radio-option"><input type="radio" id="q3-rev-b" name="revenue" value="100k-500k"><label for="q3-rev-b">R$ 100 mil a R$ 500 mil</label></div>
+                                 <div class="radio-option"><input type="radio" id="q3-rev-c" name="revenue" value="500k-1m"><label for="q3-rev-c">R$ 500 mil a R$ 1 milhão</label></div>
+                                 <div class="radio-option"><input type="radio" id="q3-rev-d" name="revenue" value="1m-5m"><label for="q3-rev-d">R$ 1 milhão a R$ 5 milhões</label></div>
+                                 <div class="radio-option"><input type="radio" id="q3-rev-e" name="revenue" value="5m+"><label for="q3-rev-e">Mais de R$ 5 milhões</label></div>
+                                 <div class="radio-option"><input type="radio" id="q3-rev-f" name="revenue" value="startup"><label for="q3-rev-f">Estou começando / Pré-faturamento</label></div>
+                             </div>
+                             <div class="form-group" style="margin-top: 20px;">
+                                 <label for="niche">Qual seu principal nicho de mercado? (Opcional)</label>
+                                 <input type="text" id="niche" name="niche" placeholder="Ex: E-commerce de moda, SaaS B2B, Serviços locais">
+                             </div>
+                            <div class="form-buttons"><button type="button" class="prev-step"><i class="fas fa-arrow-left"></i> Voltar</button><button type="button" class="next-step" disabled>Próximo <i class="fas fa-arrow-right"></i></button></div>
+                        </fieldset>
+
+                        <!-- Etapa 4: Tentativas -->
+                        <fieldset class="form-step" data-step="4">
+                             <legend class="animated-title">💡 Tentando superar seu desafio, o que você **já experimentou**?</legend>
+                             <p>(Marque as opções relevantes)</p>
+                             <div class="checkbox-options" style="columns: 2; -webkit-columns: 2; -moz-columns: 2; gap: 10px;">
+                                 <div class="checkbox-option"><input type="checkbox" id="q4-ads" name="tried[]" value="ads"><label for="q4-ads"> Anúncios Online (Google/Meta)</label></div>
+                                 <div class="checkbox-option"><input type="checkbox" id="q4-seo" name="tried[]" value="seo"><label for="q4-seo"> SEO / Marketing de Conteúdo</label></div>
+                                 <div class="checkbox-option"><input type="checkbox" id="q4-social" name="tried[]" value="social"><label for="q4-social"> Mídias Sociais Orgânicas</label></div>
+                                 <div class="checkbox-option"><input type="checkbox" id="q4-email" name="tried[]" value="email"><label for="q4-email"> Email Marketing</label></div>
+                                 <div class="checkbox-option"><input type="checkbox" id="q4-consult" name="tried[]" value="consulting"><label for="q4-consult"> Consultorias / Mentorias</label></div>
+                                 <div class="checkbox-option"><input type="checkbox" id="q4-courses" name="tried[]" value="courses"><label for="q4-courses"> Cursos Online</label></div>
+                                 <div class="checkbox-option"><input type="checkbox" id="q4-nothing" name="tried[]" value="nothing"><label for="q4-nothing"> Ainda não tentei muito</label></div>
+                                 <div class="checkbox-option"><input type="checkbox" id="q4-other" name="tried[]" value="other_tried"><label for="q4-other"> Outras estratégias</label></div>
+                             </div>
+                            <div class="form-buttons"><button type="button" class="prev-step"><i class="fas fa-arrow-left"></i> Voltar</button><button type="button" class="next-step">Próximo <i class="fas fa-arrow-right"></i></button></div>
+                        </fieldset>
+
+                        <!-- Etapa 5: Comprometimento -->
+                         <fieldset class="form-step" data-step="5">
+                             <legend class="animated-title">⏳ Quão **comprometido(a)** você está em <span style="color: var(--cta-color)">investir tempo e recursos</span> para alcançar sua meta principal nos próximos 12 meses?</legend>
+                             <div class="radio-options">
+                                <div class="radio-option"><input type="radio" id="q5-very" name="commitment" value="very" required><label for="q5-very">🔥 Totalmente! É minha prioridade máxima.</label></div>
+                                <div class="radio-option"><input type="radio" id="q5-quite" name="commitment" value="quite"><label for="q5-quite">🤔 Bastante, estou pronto para agir com o plano certo.</label></div>
+                                <div class="radio-option"><input type="radio" id="q5-some" name="commitment" value="some"><label for="q5-some">🧐 Explorando opções, aberto(a) a investir se fizer sentido.</label></div>
+                                <div class="radio-option"><input type="radio" id="q5-low" name="commitment" value="low"><label for="q5-low">📉 No momento, tenho recursos/tempo limitados.</label></div>
+                             </div>
+                             <div class="form-buttons"><button type="button" class="prev-step"><i class="fas fa-arrow-left"></i> Voltar</button><button type="button" class="next-step" disabled>Gerar Meu Diagnóstico <i class="fas fa-arrow-right"></i></button></div>
+                         </fieldset>
+
+                         <!-- Etapa 6: Email e Submissão -->
+                         <fieldset class="form-step" data-step="6">
+                             <legend class="animated-title">✅ Último passo! Onde enviamos seu **Diagnóstico + Acesso ao Curso* **?</legend>
+                             <p>Com base nas suas respostas, vamos preparar um insight inicial e direcionar você para os melhores próximos passos.</p>
+                             <div class="form-group" style="max-width: 400px; margin: 0 auto 20px auto;">
+                                 <label for="email" style="font-weight: 600; display: block; margin-bottom: 8px;">Seu Melhor E-mail:</label>
+                                 <input type="email" id="email" name="email" required placeholder="voce@seudominio.com.br" style="width: 100%; padding: 12px; border-radius: 4px; border: 1px solid #ccc; background: #fff; color: #333;">
+                             </div>
+                             <div class="form-buttons">
+                                 <button type="button" class="prev-step"><i class="fas fa-arrow-left"></i> Voltar</button>
+                                 <button type="submit" class="submit-form btn btn-cta-yellow" style="font-size: 1.1rem;">
+                                     <i class="fas fa-cogs"></i> Ver Meu Diagnóstico Agora!
+                                 </button>
+                             </div>
+                             <div class="form-privacy" style="text-align: center; margin-top: 25px;">
+                                 <p><small><i class="fas fa-lock"></i> Seus dados estão seguros. Concorda com nossa <a href="/politica-privacidade" target="_blank" rel="noopener noreferrer" style="color: var(--primary-accent-color); text-decoration: underline;">Política de Privacidade</a>.</small></p>
+                             </div>
+                         </fieldset>
+                    </form>
+
+                    <!-- Chatbot de Encorajamento -->
+                    <div id="diagnostic-chatbot">
+                        <div class="chatbot-messages" id="diagnostic-messages" style="min-height: 30px;">
+                            <!-- Mensagens de encorajamento aparecerão aqui -->
+                        </div>
+                    </div>
+
+                </div> <!-- Fim .entry-right -->
+            </div> <!-- Fim .entry-content-wrapper -->
+        </div> <!-- Fim .entry-container -->
+    </div> <!-- Fim #entry-overlay -->
+
+    <!-- Modal de Diagnóstico (Estrutura DETALHADA) -->
+     <div id="strategic-pitch" style="display: none; position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(18, 18, 18, 0.98); z-index:1010; display:flex; justify-content:center; align-items:center; opacity: 0; transition: opacity 0.4s ease-in-out;">
+        <div style="background:var(--medium-dark-bg); color: var(--light-text); padding:clamp(30px, 5vw, 50px); border-radius:var(--border-radius); max-width:750px; width:90%; border:1px solid var(--border-color); text-align:center; max-height: 90vh; overflow-y: auto; position: relative; box-shadow: 0 15px 50px rgba(0,0,0,0.8);">
+             <button id="close-pitch-button" class="close-pitch" style="position:absolute; top:15px; right:15px; background:none; border:none; font-size:1.8rem; color:var(--medium-text); cursor:pointer; line-height: 1;">×</button>
+             <h2 style="color: var(--light-text); margin-bottom: 15px;">Diagnóstico Inicial Personalizado <i class="fas fa-bolt" style="color: var(--cta-color);"></i></h2>
+             <p style="color: var(--medium-text); margin-bottom: 30px;">Com base nas suas respostas, identificamos alguns pontos chave:</p>
+             <div id="diagnosis-content" style="margin-top:20px; text-align:left; background: var(--dark-bg); padding: 25px; border-radius: 5px; border: 1px solid var(--border-color);">
+                <p style="margin-bottom: 15px;"><strong><i class="fas fa-thermometer-half" style="margin-right: 8px; color: var(--primary-accent-color);"></i>Temperatura Estimada do Lead:</strong> <span id="lead-temp-indicator" style="font-weight:bold; padding: 3px 8px; border-radius: 4px; background-color: var(--primary-accent-color); color: var(--dark-bg);">[TEMP]</span></p>
+                <p style="margin-bottom: 15px;"><strong><i class="fas fa-lightbulb" style="margin-right: 8px; color: var(--primary-accent-color);"></i>Recomendação Inicial IA:</strong> <span id="ai-recommendation" style="display: block; margin-top: 5px;"></span></p>
+                <p style="margin-bottom: 15px;"><strong><i class="fas fa-arrow-right" style="margin-right: 8px; color: var(--primary-accent-color);"></i>Próximo Passo Sugerido:</strong> <span id="next-step-recommendation" style="display: block; margin-top: 5px; font-weight: 500;"></span></p>
+                <p style="margin-bottom: 15px; font-size:0.9em; border-top: 1px dashed var(--border-color); padding-top: 15px;"><strong><i class="fas fa-info-circle" style="margin-right: 8px; color: var(--info-color);"></i>Contexto Analisado:</strong> Desafio: <span id="diag-challenge-modal"></span> | Meta: <span id="diag-goal-modal"></span> | Faturamento: <span id="diag-revenue-modal"></span> | Comprometimento: <span id="diag-commitment-modal"></span></p>
+             </div>
+             <div style="margin-top:35px;">
+                 <button class="btn btn-cta-yellow" id="go-to-offer">Acessar Curso Grátis* + Próximo Passo <i class="fas fa-arrow-right"></i></button>
+                  <p style="font-size: 0.75rem; margin-top: 15px;">*Lembre-se: Curso introdutório gratuito, cobramos apenas o envio.</p>
+             </div>
+        </div>
+     </div>
+
+    <!-- Conteúdo Principal (Placeholder) -->
+    <header class="header" style="opacity: 0; pointer-events: none;"> <!-- Escondido pois o overlay é o foco -->
+        <div class="container"> StrateUp Header</div>
+    </header>
+    <main style="opacity: 0; pointer-events: none; height: 0;">
+        <div class="container"></div>
+    </main>
+    <footer class="footer" style="opacity: 0; pointer-events: none;">
+         <div class="container"> StrateUp Footer | © <span id="current-year"></span></div>
+    </footer>
+
+    <!-- Scripts Essenciais -->
+    <script>
+        // Script COMPLETO e CORRIGIDO (Ano, Chatbot Overlay, Formulário, Animação Legendas, Modal, Redirecionamento, Placeholders Backend/IA)
+        document.addEventListener('DOMContentLoaded', () => {
+            // Ano no Footer (Embora escondido, podemos manter)
+            const currentYearSpan = document.getElementById('current-year');
+            if (currentYearSpan) currentYearSpan.textContent = new Date().getFullYear();
+
+            // Elementos do DOM
+            const entryForm = document.getElementById('entry-form');
+            const formSteps = entryForm?.querySelectorAll('.form-step');
+            const nextButtons = entryForm?.querySelectorAll('.next-step');
+            const prevButtons = entryForm?.querySelectorAll('.prev-step');
+            const progressBarFill = document.querySelector('.progress-fill');
+            const progressText = document.querySelector('.progress-text');
+            const diagnosticMessagesContainer = document.getElementById('diagnostic-messages');
+            const strategicPitchModal = document.getElementById('strategic-pitch');
+            const closePitchButton = strategicPitchModal?.querySelector('.close-pitch');
+            const goToOfferButton = document.getElementById('go-to-offer');
+            const leadTempIndicator = document.getElementById('lead-temp-indicator');
+            const aiRecommendation = document.getElementById('ai-recommendation');
+            const nextStepRecommendation = document.getElementById('next-step-recommendation');
+            const diagChallengeModal = document.getElementById('diag-challenge-modal');
+            const diagGoalModal = document.getElementById('diag-goal-modal');
+            const diagRevenueModal = document.getElementById('diag-revenue-modal');
+            const diagCommitmentModal = document.getElementById('diag-commitment-modal');
+            const animatedLegends = document.querySelectorAll('.form-step legend.animated-title');
+
+            // Verificação Essencial
+            if (!entryForm || !formSteps || formSteps.length === 0 || !nextButtons || !prevButtons || !progressBarFill || !progressText || !strategicPitchModal || !closePitchButton || !goToOfferButton) {
+                console.error("Erro crítico: Elementos essenciais do formulário ou modal não encontrados no index.html.");
+                alert("Ocorreu um erro ao carregar o diagnóstico. Por favor, recarregue a página.");
+                return;
+            }
+
+            // Variáveis de Estado
+            const totalSteps = formSteps.length;
+            let currentStep = 1;
+            let leadTemperature = 'cold';
+            let leadEmail = '';
+
+            // --- Funções Auxiliares ---
+            function updateProgressBar() {
+                const progress = (currentStep / totalSteps) * 100;
+                if(progressBarFill) progressBarFill.style.width = `${progress}%`;
+                if(progressText) progressText.textContent = `Etapa ${currentStep} de ${totalSteps}`;
+            }
+
+            function showStep(stepNumber) {
+                 formSteps.forEach(step => step.classList.remove('active'));
+                 const stepToShow = entryForm.querySelector(`.form-step[data-step="${stepNumber}"]`);
+                 if (stepToShow) {
+                     stepToShow.classList.add('active');
+                     updateProgressBar();
+                     animateLegend(stepToShow.querySelector('legend.animated-title'));
+                 }
+             }
+
+             function addDiagnosticChatMessage(message) {
+                 if (!diagnosticMessagesContainer) return;
+                 const messageElement = document.createElement('p');
+                 messageElement.classList.add('chatbot-message', 'bot');
+                 messageElement.style.fontSize = '0.85em'; messageElement.style.opacity = 0; messageElement.style.transition = 'opacity 0.5s ease';
+                 messageElement.innerHTML = `<i class="fas fa-comment-dots" style="margin-right: 5px; color: var(--info-color);"></i> ${message}`;
+                 diagnosticMessagesContainer.appendChild(messageElement);
+                 requestAnimationFrame(() => messageElement.style.opacity = 1);
+                 diagnosticMessagesContainer.scrollTop = diagnosticMessagesContainer.scrollHeight;
+             }
+
+            const encouragementMessages = [
+                 "",
+                 "Ótimo começo! Definir o desafio é chave.",
+                 "Excelente meta! Visualizar o futuro é poderoso.",
+                 "Entendido. O contexto financeiro ajuda muito.",
+                 "Bom saber o que já tentou. Muitas vezes, a combinação certa faz a diferença.",
+                 "Comprometimento é fundamental! Só falta um detalhe..."
+             ];
+
+            function checkStepCompletion(stepIndex) {
+                const currentStepElement = formSteps[stepIndex - 1];
+                if (!currentStepElement) return;
+                const nextBtn = currentStepElement.querySelector('.next-step, .submit-form'); // Pega next ou submit
+                if (!nextBtn) return;
+
+                const radios = currentStepElement.querySelectorAll('input[type="radio"][required]');
+                const emailInput = currentStepElement.querySelector('input[type="email"][required]');
+                let isComplete = true;
+
+                if (radios.length > 0) { isComplete = Array.from(radios).some(radio => radio.checked); }
+                else if (emailInput) { isComplete = emailInput.value.trim() !== '' && emailInput.checkValidity(); }
+                // Checkboxes são opcionais (Etapa 4)
+
+                nextBtn.disabled = !isComplete;
+            }
+
+            // --- Animação de Legendas ---
+             function setupAnimatedLegend(legendElement) { /* ... (função completa e corrigida com espaço) ... */ }
+             function animateLegend(legendElement) { /* ... (função completa) ... */ }
+             animatedLegends.forEach(setupAnimatedLegend); // Prepara legendas
+
+            // --- Listeners de Navegação e Validação ---
+             formSteps.forEach((step, index) => {
+                 const stepNumber = index + 1;
+                 const inputs = step.querySelectorAll('input[type="radio"][required], input[type="email"][required]');
+                 inputs.forEach(input => {
+                     const check = () => checkStepCompletion(stepNumber);
+                     input.addEventListener('input', check);
+                     input.addEventListener('change', check);
+                 });
+                 // Etapa 4 (checkboxes) não precisa de validação para avançar
+                 if (stepNumber !== 4) {
+                    checkStepCompletion(stepNumber);
+                 } else {
+                     const nextBtn = step.querySelector('.next-step');
+                     if(nextBtn) nextBtn.disabled = false; // Botão da etapa 4 sempre habilitado
+                 }
+             });
+
+            nextButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    if (currentStep < totalSteps && !button.disabled) {
+                        currentStep++;
+                        showStep(currentStep);
+                        if (encouragementMessages[currentStep-1]) { // Ajustado índice
+                            addDiagnosticChatMessage(encouragementMessages[currentStep-1]);
+                        }
+                        checkStepCompletion(currentStep);
+                    }
+                });
+            });
+            prevButtons.forEach(button => {
+                 button.addEventListener('click', () => {
+                     if (currentStep > 1) {
+                         currentStep--;
+                         showStep(currentStep);
+                         checkStepCompletion(currentStep);
+                     }
+                 });
+             });
+
+             // --- Submissão, Análise, Modal, Redirecionamento ---
+             entryForm.addEventListener('submit', (event) => {
+                 event.preventDefault();
+                 const formData = new FormData(entryForm);
+                 const leadData = Object.fromEntries(formData.entries());
+                 leadData['tried[]'] = formData.getAll('tried[]') || [];
+                 leadEmail = leadData.email || '';
+
+                 leadTemperature = simulateAIAnalysis(leadData);
+                 const diagnostic = generateDiagnosticText(leadData, leadTemperature);
+
+                 // Salva no Local Storage
+                 localStorage.setItem('strateup_lead_email', leadEmail);
+                 localStorage.setItem('strateup_lead_temperature', leadTemperature);
+                 localStorage.setItem('strateup_challenge', leadData.challenge || '');
+                 localStorage.setItem('strateup_goal', leadData.goal || '');
+                 localStorage.setItem('strateup_revenue', leadData.revenue || '');
+                 localStorage.setItem('strateup_commitment', leadData.commitment || '');
+
+                 // Envia para Backend
+                 sendDataToBackend({ ...leadData, leadTemperature: leadTemperature });
+
+                 // Preenche e Mostra o Modal
+                 if(leadTempIndicator) leadTempIndicator.textContent = leadTemperature.charAt(0).toUpperCase() + leadTemperature.slice(1);
+                 if(aiRecommendation) aiRecommendation.innerHTML = diagnostic.recommendation;
+                 if(nextStepRecommendation) nextStepRecommendation.innerHTML = diagnostic.nextStep;
+                 if(diagChallengeModal) diagChallengeModal.textContent = getLabelForValue('challenge', leadData.challenge);
+                 if(diagGoalModal) diagGoalModal.textContent = getLabelForValue('goal', leadData.goal);
+                 if(diagRevenueModal) diagRevenueModal.textContent = getLabelForValue('revenue', leadData.revenue);
+                 if(diagCommitmentModal) diagCommitmentModal.textContent = getLabelForValue('commitment', leadData.commitment);
+
+                 if(strategicPitchModal) {
+                     strategicPitchModal.style.display = 'flex';
+                     requestAnimationFrame(() => strategicPitchModal.style.opacity = 1);
+                 }
+             });
+
+            // --- Lógica Modal ---
+             function redirectToOffer() {
+                 if(strategicPitchModal) strategicPitchModal.style.opacity = 0;
+                 setTimeout(() => {
+                      if(strategicPitchModal) strategicPitchModal.style.display = 'none';
+                      window.location.href = `curso-free-shipping.html?email=${encodeURIComponent(leadEmail)}`;
+                 }, 400);
+             }
+             if(closePitchButton) closePitchButton.addEventListener('click', redirectToOffer);
+             if(goToOfferButton) goToOfferButton.addEventListener('click', redirectToOffer);
+
+             // --- Funções JS Stubs/Placeholders ---
+             function simulateAIAnalysis(data) {
+                console.log("Simulating AI with data:", data);
+                let score = 0; let temp = 'cold';
+                const weights = { challenge: { scalability: 10, conversion: 6, profitability: 6, acquisition: 3, retention: 3, other: 0, default: 1 }, goal: { growth: 12, profitability: 8, automation: 8, impact: 4, freedom: 4, default: 2 }, revenue: { '5m+': 15, '1m-5m': 12, '500k-1m': 8, '100k-500k': 5, '<100k': 2, startup: 1, default: 0 }, tried: { consulting: 4, courses: 3, ads: 2, seo: 1, email: 1, social: 0, nothing: -3, other_tried: 1 }, commitment: { very: 25, quite: 15, some: 7, low: 0, default: 0 } };
+                score += weights.challenge[data.challenge] || weights.challenge.default; score += weights.goal[data.goal] || weights.goal.default; score += weights.revenue[data.revenue] || weights.revenue.default; score += weights.commitment[data.commitment] || weights.commitment.default;
+                const triedActions = data['tried[]'] || []; if (Array.isArray(triedActions)) { triedActions.forEach(action => { score += weights.tried[action] || 0; }); } else if (typeof triedActions === 'string' && weights.tried[triedActions]) { score += weights.tried[triedActions]; }
+                const thresholds = { hot: 45, warm: 25 };
+                if (score >= thresholds.hot) { temp = 'hot'; } else if (score >= thresholds.warm) { temp = 'warm'; } else { temp = 'cold'; }
+                console.log("Score:", score, "Temp:", temp);
+                return temp;
+             }
+             function generateDiagnosticText(data, temperature) {
+                 let recommendation = "Análise inicial sugere focar nos fundamentos.";
+                 let nextStep = "Recomendamos nosso <strong>Curso Introdutório Grátis*</strong> como primeiro passo.";
+                 if (temperature === 'warm') { recommendation = "Identificamos potencial para otimização de funil e conversão."; nextStep = "Explore nossa <strong>Análise Estratégica de Funil</strong> ou comece com o curso introdutório gratuito*."; }
+                 if (temperature === 'hot') { recommendation = "Seu perfil indica prontidão para estratégias de escala e alto impacto."; nextStep = "Agende sua <strong>Sessão Estratégica Premium</strong> ou inicie com nosso curso introdutório gratuito*."; }
+                 return { recommendation, nextStep };
+            }
+             async function sendDataToBackend(leadData) { console.log("Simulando envio para backend:", leadData); /* Implementar fetch real aqui */ }
+             function getLabelForValue(groupName, value) { try { const i = entryForm.querySelector(`input[name="${groupName}"][value="${value}"]`); if (i) { const l = entryForm.querySelector(`label[for="${i.id}"]`); return l ? l.textContent.trim() : value; } } catch (e) {} return value || 'N/A'; }
+
+             // Inicializa
+             showStep(currentStep);
+             updateProgressBar();
+
+        }); // Fim DOMContentLoaded
+    </script>
+
+</body>
+</html>
